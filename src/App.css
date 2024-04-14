@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.card-img-top {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border: 1px solid #ccc; /* 浅灰色边框 */
+}
+
+/* 容器样式，增加内部元素的间距 */
+.container {
+  padding: 20px;
+}
+
+/* 标题样式 */
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* 分隔每个复选框和 ItemCard 的边框样式 */
+.mb-10,
+.mb-3,
+.item-card-container {
+  border: 1px solid #ccc; /* 灰色边框 */
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px; /* 圆角边框 */
+  background-color: #f9f9f9; /* 轻微的背景颜色 */
+}
+
+/* 为复选框添加额外的右侧间距 */
+.form-check-inline {
+  margin-right: 15px;
+}

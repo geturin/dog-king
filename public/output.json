@@ -1,0 +1,6847 @@
+[
+    {
+        "id": "ls100001",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100001.jpg",
+        "name": "ダーインスレイブ",
+        "details": {
+            "zo": 1,
+            "bu": 1,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100003",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100003.jpg",
+        "name": "アスカロン",
+        "details": {
+            "zo": 3,
+            "bu": 1,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100004",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100004.jpg",
+        "name": "カラドボルグ",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100006",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100006.jpg",
+        "name": "オートクレール",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100008",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100008.jpg",
+        "name": "宝剣アンダリス,アンダリス",
+        "details": {
+            "zo": 3,
+            "bu": 1,
+            "ca": 1,
+            "sk": 13,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100009",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100009.jpg",
+        "name": "輝剣クラウ・ソラス,シャル剣",
+        "details": {
+            "zo": 2,
+            "bu": 1,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100012",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100012.jpg",
+        "name": "フロッティ",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100017",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100017.jpg",
+        "name": "ミストルテイン",
+        "details": {
+            "zo": 6,
+            "bu": 1,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100022",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100022.jpg",
+        "name": "ラスト・シン",
+        "details": {
+            "zo": 6,
+            "bu": 1,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100024",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100024.jpg",
+        "name": "ローエングリン",
+        "details": {
+            "zo": 1,
+            "bu": 1,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100026",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100026.jpg",
+        "name": "ミュルグレス",
+        "details": {
+            "zo": 2,
+            "bu": 1,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100027",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100027.jpg",
+        "name": "ディープデザイア",
+        "details": {
+            "zo": 3,
+            "bu": 1,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100031",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100031.jpg",
+        "name": "グラム",
+        "details": {
+            "zo": 6,
+            "bu": 1,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100034",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100034.jpg",
+        "name": "オーラフラジェルム,フェリ剣",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100043",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100043.jpg",
+        "name": "ディスペアー",
+        "details": {
+            "zo": 6,
+            "bu": 1,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100044",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100044.jpg",
+        "name": "ブルトガング",
+        "details": {
+            "zo": 6,
+            "bu": 1,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100047",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100047.jpg",
+        "name": "アントウェルペン",
+        "details": {
+            "zo": 1,
+            "bu": 1,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100049",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100049.jpg",
+        "name": "ナーゲルリング",
+        "details": {
+            "zo": 2,
+            "bu": 1,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100050",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100050.jpg",
+        "name": "イイルクーン",
+        "details": {
+            "zo": 4,
+            "bu": 1,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100055",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100055.jpg",
+        "name": "フェアネスマーク",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100058",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100058.jpg",
+        "name": "パーマフロスト・ソード",
+        "details": {
+            "zo": 2,
+            "bu": 1,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100059",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100059.jpg",
+        "name": "アゾット",
+        "details": {
+            "zo": 6,
+            "bu": 2,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100065",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100065.jpg",
+        "name": "ダイヤモンドエッジ",
+        "details": {
+            "zo": 5,
+            "bu": 2,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100070",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100070.jpg",
+        "name": "雷公刃ユピテル",
+        "details": {
+            "zo": 5,
+            "bu": 2,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100072",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100072.jpg",
+        "name": "トリック・オア・トリート",
+        "details": {
+            "zo": 1,
+            "bu": 2,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100073",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100073.jpg",
+        "name": "霧氷剣ペルソス",
+        "details": {
+            "zo": 2,
+            "bu": 2,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100078",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100078.jpg",
+        "name": "ヘヴンズクラウド",
+        "details": {
+            "zo": 4,
+            "bu": 2,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100080",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100080.jpg",
+        "name": "エターナル・ラヴ",
+        "details": {
+            "zo": 4,
+            "bu": 2,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100082",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100082.jpg",
+        "name": "アルセーヌ",
+        "details": {
+            "zo": 3,
+            "bu": 2,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100087",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100087.jpg",
+        "name": "デュアルヘリックス",
+        "details": {
+            "zo": 5,
+            "bu": 2,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100089",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100089.jpg",
+        "name": "ファントムシーフナイフ",
+        "details": {
+            "zo": 2,
+            "bu": 2,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100090",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100090.jpg",
+        "name": "ブラッディスカー",
+        "details": {
+            "zo": 6,
+            "bu": 2,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100091",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100091.jpg",
+        "name": "リユニオン",
+        "details": {
+            "zo": 4,
+            "bu": 2,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100092",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100092.jpg",
+        "name": "デルタ・クォーツ",
+        "details": {
+            "zo": 1,
+            "bu": 2,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100094",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100094.jpg",
+        "name": "パラゾニウム",
+        "details": {
+            "zo": 6,
+            "bu": 2,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100098",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100098.jpg",
+        "name": "クレティネ",
+        "details": {
+            "zo": 5,
+            "bu": 3,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100099",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100099.jpg",
+        "name": "ピラム",
+        "details": {
+            "zo": 1,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100100",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100100.jpg",
+        "name": "ブリューナク",
+        "details": {
+            "zo": 1,
+            "bu": 3,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100102",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100102.jpg",
+        "name": "グランテピエ",
+        "details": {
+            "zo": 4,
+            "bu": 3,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100108",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100108.jpg",
+        "name": "ガルガンチュア",
+        "details": {
+            "zo": 3,
+            "bu": 3,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100111",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100111.jpg",
+        "name": "ローゼンメイデン",
+        "details": {
+            "zo": 6,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100113",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100113.jpg",
+        "name": "天干地支刀・未之飾",
+        "details": {
+            "zo": 6,
+            "bu": 3,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100118",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100118.jpg",
+        "name": "ルーン",
+        "details": {
+            "zo": 1,
+            "bu": 3,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100128",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100128.jpg",
+        "name": "双竜槍",
+        "details": {
+            "zo": 6,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100129",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100129.jpg",
+        "name": "クリスタルルーン",
+        "details": {
+            "zo": 5,
+            "bu": 3,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100133",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100133.jpg",
+        "name": "エデン",
+        "details": {
+            "zo": 5,
+            "bu": 3,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100134",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100134.jpg",
+        "name": "ゲイダーグ",
+        "details": {
+            "zo": 3,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100136",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100136.jpg",
+        "name": "サンスポットスピア",
+        "details": {
+            "zo": 6,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100142",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100142.jpg",
+        "name": "ダイモーンスパイン",
+        "details": {
+            "zo": 2,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100143",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100143.jpg",
+        "name": "ウコンバサラ",
+        "details": {
+            "zo": 5,
+            "bu": 4,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100147",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100147.jpg",
+        "name": "閃刃の剣斧",
+        "details": {
+            "zo": 4,
+            "bu": 4,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100148",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100148.jpg",
+        "name": "緋紋の絢斧",
+        "details": {
+            "zo": 1,
+            "bu": 4,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100153",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100153.jpg",
+        "name": "ヴァサーゴ",
+        "details": {
+            "zo": 6,
+            "bu": 4,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100164",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100164.jpg",
+        "name": "フライアウェイ",
+        "details": {
+            "zo": 1,
+            "bu": 4,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100168",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100168.jpg",
+        "name": "ソウルイーター",
+        "details": {
+            "zo": 6,
+            "bu": 4,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100170",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100170.jpg",
+        "name": "ブラビューラ",
+        "details": {
+            "zo": 3,
+            "bu": 4,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100174",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100174.jpg",
+        "name": "スプリットエンド",
+        "details": {
+            "zo": 4,
+            "bu": 4,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100177",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100177.jpg",
+        "name": "ブロッサムアクス",
+        "details": {
+            "zo": 2,
+            "bu": 4,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100180",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100180.jpg",
+        "name": "ケーリュケイオン",
+        "details": {
+            "zo": 4,
+            "bu": 5,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100183",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100183.jpg",
+        "name": "氷晶杖",
+        "details": {
+            "zo": 2,
+            "bu": 5,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100184",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100184.jpg",
+        "name": "封鍵クラウストルム",
+        "details": {
+            "zo": 5,
+            "bu": 5,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100185",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100185.jpg",
+        "name": "ウロボロス",
+        "details": {
+            "zo": 3,
+            "bu": 5,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100186",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100186.jpg",
+        "name": "イリュージョンセプター",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100187",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100187.jpg",
+        "name": "サンフラワーワンド",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100200",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100200.jpg",
+        "name": "カーラウロプス",
+        "details": {
+            "zo": 6,
+            "bu": 5,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100204",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100204.jpg",
+        "name": "トリート・ウロボロス",
+        "details": {
+            "zo": 6,
+            "bu": 5,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100205",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100205.jpg",
+        "name": "ガンバンテイン",
+        "details": {
+            "zo": 5,
+            "bu": 5,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100215",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100215.jpg",
+        "name": "リング・オブ・サン",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100219",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100219.jpg",
+        "name": "ホワイトウイング",
+        "details": {
+            "zo": 4,
+            "bu": 5,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100225",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100225.jpg",
+        "name": "キャピュレティオウス",
+        "details": {
+            "zo": 5,
+            "bu": 5,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100226",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100226.jpg",
+        "name": "モンタギュオウス",
+        "details": {
+            "zo": 2,
+            "bu": 5,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100227",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100227.jpg",
+        "name": "インフェルノリークス",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100228",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100228.jpg",
+        "name": "星屑の聖杖",
+        "details": {
+            "zo": 2,
+            "bu": 5,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100229",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100229.jpg",
+        "name": "グリダーヴォル",
+        "details": {
+            "zo": 6,
+            "bu": 5,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100233",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100233.jpg",
+        "name": "テュルソス",
+        "details": {
+            "zo": 3,
+            "bu": 5,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100234",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100234.jpg",
+        "name": "ブラック・ウロボロス",
+        "details": {
+            "zo": 6,
+            "bu": 5,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100235",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100235.jpg",
+        "name": "ブルースフィア",
+        "details": {
+            "zo": 2,
+            "bu": 5,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100244",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100244.jpg",
+        "name": "ファラウェイ",
+        "details": {
+            "zo": 4,
+            "bu": 6,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100249",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100249.jpg",
+        "name": "ヴリスラグナ",
+        "details": {
+            "zo": 2,
+            "bu": 6,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100250",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100250.jpg",
+        "name": "ベネディーア",
+        "details": {
+            "zo": 1,
+            "bu": 6,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100252",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100252.jpg",
+        "name": "ストラトゥムバンカー",
+        "details": {
+            "zo": 3,
+            "bu": 6,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100254",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100254.jpg",
+        "name": "エーケイ・フォーエイ",
+        "details": {
+            "zo": 3,
+            "bu": 6,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100259",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100259.jpg",
+        "name": "メテオラ",
+        "details": {
+            "zo": 2,
+            "bu": 6,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100263",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100263.jpg",
+        "name": "ナイトメアバンカー",
+        "details": {
+            "zo": 3,
+            "bu": 6,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100270",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100270.jpg",
+        "name": "ココ＆ミミ",
+        "details": {
+            "zo": 6,
+            "bu": 7,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100277",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100277.jpg",
+        "name": "緋舞扇,ソシエ拳",
+        "details": {
+            "zo": 2,
+            "bu": 7,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100281",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100281.jpg",
+        "name": "梵天添甲,ガンダ拳",
+        "details": {
+            "zo": 1,
+            "bu": 7,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100291",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100291.jpg",
+        "name": "マグマガントレット",
+        "details": {
+            "zo": 1,
+            "bu": 7,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100292",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100292.jpg",
+        "name": "エンシェントバンテージ",
+        "details": {
+            "zo": 3,
+            "bu": 7,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100294",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100294.jpg",
+        "name": "リボン",
+        "details": {
+            "zo": 6,
+            "bu": 7,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100296",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100296.jpg",
+        "name": "天華簪",
+        "details": {
+            "zo": 1,
+            "bu": 7,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100299",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100299.jpg",
+        "name": "メタルハンド",
+        "details": {
+            "zo": 2,
+            "bu": 7,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100301",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100301.jpg",
+        "name": "ディアドリッククロー",
+        "details": {
+            "zo": 4,
+            "bu": 7,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100305",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100305.jpg",
+        "name": "トレピリ",
+        "details": {
+            "zo": 2,
+            "bu": 7,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100306",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100306.jpg",
+        "name": "ドラグクロー",
+        "details": {
+            "zo": 1,
+            "bu": 7,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100307",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100307.jpg",
+        "name": "ゴシックカトラリー",
+        "details": {
+            "zo": 5,
+            "bu": 7,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100312",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100312.jpg",
+        "name": "エーテリアルボウ",
+        "details": {
+            "zo": 4,
+            "bu": 8,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100321",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100321.jpg",
+        "name": "ヒロイックボウ",
+        "details": {
+            "zo": 5,
+            "bu": 8,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100322",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100322.jpg",
+        "name": "ピンク・エーテリアル",
+        "details": {
+            "zo": 1,
+            "bu": 8,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100332",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100332.jpg",
+        "name": "天干地支弓・酉之飾",
+        "details": {
+            "zo": 3,
+            "bu": 8,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100342",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100342.jpg",
+        "name": "オーシャンハープ",
+        "details": {
+            "zo": 2,
+            "bu": 9,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100345",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100345.jpg",
+        "name": "砂城の宮樂弦",
+        "details": {
+            "zo": 3,
+            "bu": 9,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100349",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100349.jpg",
+        "name": "メビウス",
+        "details": {
+            "zo": 1,
+            "bu": 9,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100352",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100352.jpg",
+        "name": "神授のリラ",
+        "details": {
+            "zo": 4,
+            "bu": 9,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100354",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100354.jpg",
+        "name": "メロディックスフィア",
+        "details": {
+            "zo": 2,
+            "bu": 9,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100355",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100355.jpg",
+        "name": "スノウリィメビウス",
+        "details": {
+            "zo": 5,
+            "bu": 9,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100368",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100368.jpg",
+        "name": "フュージョンメビウス",
+        "details": {
+            "zo": 5,
+            "bu": 9,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100369",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100369.jpg",
+        "name": "ベッラ・アエテルヌス",
+        "details": {
+            "zo": 3,
+            "bu": 9,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100370",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100370.jpg",
+        "name": "ハッピーエンドベル",
+        "details": {
+            "zo": 4,
+            "bu": 9,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100373",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100373.jpg",
+        "name": "丙子椒林剣",
+        "details": {
+            "zo": 3,
+            "bu": 10,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100381",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100381.jpg",
+        "name": "ドラゴンスレイヤー",
+        "details": {
+            "zo": 4,
+            "bu": 10,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100384",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100384.jpg",
+        "name": "三日月",
+        "details": {
+            "zo": 6,
+            "bu": 10,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100386",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100386.jpg",
+        "name": "不動国行",
+        "details": {
+            "zo": 6,
+            "bu": 10,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100388",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100388.jpg",
+        "name": "天干地支刀・申之飾",
+        "details": {
+            "zo": 5,
+            "bu": 10,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100393",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100393.jpg",
+        "name": "雷切",
+        "details": {
+            "zo": 2,
+            "bu": 10,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100398",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100398.jpg",
+        "name": "イクサバ",
+        "details": {
+            "zo": 1,
+            "bu": 10,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100400",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100400.jpg",
+        "name": "シネンシス",
+        "details": {
+            "zo": 4,
+            "bu": 10,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100799",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100799.jpg",
+        "name": "シャドウサーペント",
+        "details": {
+            "zo": 6,
+            "bu": 3,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100801",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100801.jpg",
+        "name": "スナックポール",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100802",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100802.jpg",
+        "name": "十六夜",
+        "details": {
+            "zo": 2,
+            "bu": 10,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100804",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100804.jpg",
+        "name": "サティフィケイト",
+        "details": {
+            "zo": 5,
+            "bu": 4,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100807",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100807.jpg",
+        "name": "ハイリゲスシュヴェールト",
+        "details": {
+            "zo": 4,
+            "bu": 1,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100811",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100811.jpg",
+        "name": "セイントスタークラッカー",
+        "details": {
+            "zo": 5,
+            "bu": 6,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100814",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100814.jpg",
+        "name": "フォールン・ソード",
+        "details": {
+            "zo": 6,
+            "bu": 1,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100815",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100815.jpg",
+        "name": "天干地支爪・戌之飾",
+        "details": {
+            "zo": 2,
+            "bu": 7,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100816",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100816.jpg",
+        "name": "ガーンディーヴァ",
+        "details": {
+            "zo": 3,
+            "bu": 8,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100817",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100817.jpg",
+        "name": "ウルツァイトサイズ",
+        "details": {
+            "zo": 3,
+            "bu": 4,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100819",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100819.jpg",
+        "name": "タンザナイトブレイド",
+        "details": {
+            "zo": 1,
+            "bu": 10,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100820",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100820.jpg",
+        "name": "フェイトルーラー",
+        "details": {
+            "zo": 5,
+            "bu": 6,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100822",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100822.jpg",
+        "name": "メドゥシアナ★ステッキ",
+        "details": {
+            "zo": 3,
+            "bu": 5,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100833",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100833.jpg",
+        "name": "ティアマトボルト・オリジン",
+        "details": {
+            "zo": 4,
+            "bu": 6,
+            "ca": 1,
+            "sk": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100853",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100853.jpg",
+        "name": "オルレアン・フラッグ",
+        "details": {
+            "zo": 4,
+            "bu": 3,
+            "ca": 1,
+            "sk": 13,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100868",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100868.jpg",
+        "name": "レールガン",
+        "details": {
+            "zo": 5,
+            "bu": 6,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100869",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100869.jpg",
+        "name": "ギガントスライサー",
+        "details": {
+            "zo": 6,
+            "bu": 10,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100873",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100873.jpg",
+        "name": "刃鏡片",
+        "details": {
+            "zo": 3,
+            "bu": 2,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100876",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100876.jpg",
+        "name": "ホワイトホーク",
+        "details": {
+            "zo": 2,
+            "bu": 6,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100880",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100880.jpg",
+        "name": "龍虎双滅拳",
+        "details": {
+            "zo": 3,
+            "bu": 7,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100881",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100881.jpg",
+        "name": "一期一振",
+        "details": {
+            "zo": 3,
+            "bu": 10,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100882",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100882.jpg",
+        "name": "ルーリングペン",
+        "details": {
+            "zo": 6,
+            "bu": 7,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100887",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100887.jpg",
+        "name": "マスターキー",
+        "details": {
+            "zo": 6,
+            "bu": 4,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100889",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100889.jpg",
+        "name": "キタラアングリカ",
+        "details": {
+            "zo": 4,
+            "bu": 9,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100890",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100890.jpg",
+        "name": "トーニーローズ",
+        "details": {
+            "zo": 3,
+            "bu": 2,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100891",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100891.jpg",
+        "name": "アルジュナン・ボウ",
+        "details": {
+            "zo": 1,
+            "bu": 8,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100892",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100892.jpg",
+        "name": "コニファラス",
+        "details": {
+            "zo": 5,
+            "bu": 3,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100896",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100896.jpg",
+        "name": "ドラグホーン",
+        "details": {
+            "zo": 2,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100897",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100897.jpg",
+        "name": "ツーバイフォー",
+        "details": {
+            "zo": 1,
+            "bu": 4,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100898",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100898.jpg",
+        "name": "太歳精弓,フォリア弓",
+        "details": {
+            "zo": 2,
+            "bu": 8,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100900",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100900.jpg",
+        "name": "アラクネ",
+        "details": {
+            "zo": 6,
+            "bu": 6,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100902",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100902.jpg",
+        "name": "ハイメタルストック",
+        "details": {
+            "zo": 5,
+            "bu": 4,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100905",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100905.jpg",
+        "name": "ガリレオ･サイト,エウロペ槍",
+        "details": {
+            "zo": 2,
+            "bu": 3,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100906",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100906.jpg",
+        "name": "ディスタント･レクイエム",
+        "details": {
+            "zo": 6,
+            "bu": 9,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100907",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100907.jpg",
+        "name": "フェードラッヘフラッグ",
+        "details": {
+            "zo": 1,
+            "bu": 3,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100908",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100908.jpg",
+        "name": "ゴットフリート",
+        "details": {
+            "zo": 2,
+            "bu": 1,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100911",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100911.jpg",
+        "name": "レヴィオンシューター",
+        "details": {
+            "zo": 5,
+            "bu": 8,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100912",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100912.jpg",
+        "name": "リターナースタッフ",
+        "details": {
+            "zo": 4,
+            "bu": 5,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100913",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100913.jpg",
+        "name": "クレイヴ･ソリッシュ",
+        "details": {
+            "zo": 5,
+            "bu": 4,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100922",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100922.jpg",
+        "name": "ピンキーニードル",
+        "details": {
+            "zo": 5,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100927",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100927.jpg",
+        "name": "悪滅の雷,シヴァ弓",
+        "details": {
+            "zo": 1,
+            "bu": 8,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100928",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100928.jpg",
+        "name": "天干地支鈴･亥之飾",
+        "details": {
+            "zo": 5,
+            "bu": 4,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100929",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100929.jpg",
+        "name": "イシュタル",
+        "details": {
+            "zo": 6,
+            "bu": 6,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100930",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100930.jpg",
+        "name": "セイクリッドランス",
+        "details": {
+            "zo": 1,
+            "bu": 3,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100933",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100933.jpg",
+        "name": "ガンドリン",
+        "details": {
+            "zo": 6,
+            "bu": 2,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100935",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100935.jpg",
+        "name": "ギャラクティカインパクト",
+        "details": {
+            "zo": 4,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100936",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100936.jpg",
+        "name": "ネコパンチ･プロ",
+        "details": {
+            "zo": 3,
+            "bu": 7,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100939",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100939.jpg",
+        "name": "シルフィウム",
+        "details": {
+            "zo": 6,
+            "bu": 5,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100940",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100940.jpg",
+        "name": "ソードコーン",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100941",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100941.jpg",
+        "name": "ウン･ハイル",
+        "details": {
+            "zo": 6,
+            "bu": 9,
+            "ca": 1,
+            "sk": 17,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100943",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100943.jpg",
+        "name": "ディアドリックシンボル",
+        "details": {
+            "zo": 4,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100946",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100946.jpg",
+        "name": "蒼紅之華刀",
+        "details": {
+            "zo": 4,
+            "bu": 10,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100949",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100949.jpg",
+        "name": "アナザースカイ",
+        "details": {
+            "zo": 4,
+            "bu": 9,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100963",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100963.jpg",
+        "name": "虚無ノ哭風,グリム槍",
+        "details": {
+            "zo": 4,
+            "bu": 3,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100964",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100964.jpg",
+        "name": "氷星の煌杖",
+        "details": {
+            "zo": 2,
+            "bu": 5,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100966",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100966.jpg",
+        "name": "エウリピデス",
+        "details": {
+            "zo": 3,
+            "bu": 5,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100971",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100971.jpg",
+        "name": "マイムールクローズ,マイムールクロース",
+        "details": {
+            "zo": 3,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100974",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100974.jpg",
+        "name": "レインボーハンド",
+        "details": {
+            "zo": 3,
+            "bu": 7,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100975",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100975.jpg",
+        "name": "三相女神",
+        "details": {
+            "zo": 4,
+            "bu": 5,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100978",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100978.jpg",
+        "name": "宿無し",
+        "details": {
+            "zo": 6,
+            "bu": 3,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100980",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100980.jpg",
+        "name": "アイン･ソフ",
+        "details": {
+            "zo": 2,
+            "bu": 1,
+            "ca": 1,
+            "sk": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100981",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100981.jpg",
+        "name": "レター",
+        "details": {
+            "zo": 5,
+            "bu": 2,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100986",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100986.jpg",
+        "name": "オンリー･プリティ･ガール,水カリオ杖",
+        "details": {
+            "zo": 2,
+            "bu": 5,
+            "ca": 1,
+            "sk": 13,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100988",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100988.jpg",
+        "name": "クリスタルベルフラワー",
+        "details": {
+            "zo": 2,
+            "bu": 2,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100989",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100989.jpg",
+        "name": "蒼宵光華",
+        "details": {
+            "zo": 3,
+            "bu": 7,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100996",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100996.jpg",
+        "name": "サマーメモリーリークス",
+        "details": {
+            "zo": 6,
+            "bu": 5,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls100999",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls100999.jpg",
+        "name": "ニーベルン･グラス",
+        "details": {
+            "zo": 3,
+            "bu": 7,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101002",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101002.jpg",
+        "name": "ゴールドドラゴン",
+        "details": {
+            "zo": 4,
+            "bu": 7,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101003",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101003.jpg",
+        "name": "手斧",
+        "details": {
+            "zo": 1,
+            "bu": 4,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101004",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101004.jpg",
+        "name": "メタル･デストロイヤー,コロ刀",
+        "details": {
+            "zo": 1,
+            "bu": 10,
+            "ca": 1,
+            "sk": 13,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101005",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101005.jpg",
+        "name": "アイオーン",
+        "details": {
+            "zo": 5,
+            "bu": 8,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101008",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101008.jpg",
+        "name": "黒竜のアギト",
+        "details": {
+            "zo": 1,
+            "bu": 10,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101009",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101009.jpg",
+        "name": "スカイエース",
+        "details": {
+            "zo": 4,
+            "bu": 10,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101011",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101011.jpg",
+        "name": "ウィッチブルーム",
+        "details": {
+            "zo": 3,
+            "bu": 5,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101012",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101012.jpg",
+        "name": "スピリットシーカー",
+        "details": {
+            "zo": 5,
+            "bu": 4,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101014",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101014.jpg",
+        "name": "数珠丸",
+        "details": {
+            "zo": 6,
+            "bu": 10,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101015",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101015.jpg",
+        "name": "朱槍",
+        "details": {
+            "zo": 4,
+            "bu": 3,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101019",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101019.jpg",
+        "name": "聖布の槍",
+        "details": {
+            "zo": 5,
+            "bu": 3,
+            "ca": 1,
+            "sk": 9,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101020",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101020.jpg",
+        "name": "アヤの弓",
+        "details": {
+            "zo": 5,
+            "bu": 8,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101024",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101024.jpg",
+        "name": "レイガン",
+        "details": {
+            "zo": 4,
+            "bu": 6,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101025",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101025.jpg",
+        "name": "ホーリーナイトセプター",
+        "details": {
+            "zo": 3,
+            "bu": 5,
+            "ca": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101029",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101029.jpg",
+        "name": "清めと祓いの刃",
+        "details": {
+            "zo": 3,
+            "bu": 10,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101030",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101030.jpg",
+        "name": "誓いと洗礼の剣",
+        "details": {
+            "zo": 4,
+            "bu": 1,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101033",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101033.jpg",
+        "name": "バブ･エル･マンデブ,バブ斧",
+        "details": {
+            "zo": 6,
+            "bu": 4,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101034",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101034.jpg",
+        "name": "天干地支筒･子之飾",
+        "details": {
+            "zo": 6,
+            "bu": 6,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101035",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101035.jpg",
+        "name": "アーク",
+        "details": {
+            "zo": 5,
+            "bu": 2,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101036",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101036.jpg",
+        "name": "ドス",
+        "details": {
+            "zo": 1,
+            "bu": 2,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101037",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101037.jpg",
+        "name": "極･白刃",
+        "details": {
+            "zo": 6,
+            "bu": 10,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101038",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101038.jpg",
+        "name": "降魔の包丁",
+        "details": {
+            "zo": 5,
+            "bu": 2,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101039",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101039.jpg",
+        "name": "相州正宗",
+        "details": {
+            "zo": 3,
+            "bu": 10,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101041",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101041.jpg",
+        "name": "タケミナカタ",
+        "details": {
+            "zo": 5,
+            "bu": 6,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101042",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101042.jpg",
+        "name": "真武虎薙",
+        "details": {
+            "zo": 4,
+            "bu": 4,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101043",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101043.jpg",
+        "name": "ディアドリックハート",
+        "details": {
+            "zo": 1,
+            "bu": 7,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101044",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101044.jpg",
+        "name": "ルペルカリア,バレグリム槍",
+        "details": {
+            "zo": 4,
+            "bu": 3,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101052",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101052.jpg",
+        "name": "シューニャ",
+        "details": {
+            "zo": 6,
+            "bu": 9,
+            "ca": 1,
+            "sk": 9,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101053",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101053.jpg",
+        "name": "コマンダーピストル",
+        "details": {
+            "zo": 2,
+            "bu": 6,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101054",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101054.jpg",
+        "name": "ベスちゃんにんぎょう",
+        "details": {
+            "zo": 2,
+            "bu": 9,
+            "ca": 1,
+            "sk": 9,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101061",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101061.jpg",
+        "name": "トロピカルフェアリー",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101062",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101062.jpg",
+        "name": "ケラク",
+        "details": {
+            "zo": 1,
+            "bu": 9,
+            "ca": 1,
+            "sk": 9,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101065",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101065.jpg",
+        "name": "プロエリウム",
+        "details": {
+            "zo": 2,
+            "bu": 1,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101066",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101066.jpg",
+        "name": "レッドスフィア",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 9,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101068",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101068.jpg",
+        "name": "グレートスピア",
+        "details": {
+            "zo": 3,
+            "bu": 3,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101069",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101069.jpg",
+        "name": "アシッドボルト",
+        "details": {
+            "zo": 2,
+            "bu": 6,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101075",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101075.jpg",
+        "name": "絶拳",
+        "details": {
+            "zo": 1,
+            "bu": 7,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101076",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101076.jpg",
+        "name": "テイウァッツ",
+        "details": {
+            "zo": 2,
+            "bu": 4,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101079",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101079.jpg",
+        "name": "ミスティックブラシ",
+        "details": {
+            "zo": 1,
+            "bu": 6,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101080",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101080.jpg",
+        "name": "プレデタークロー",
+        "details": {
+            "zo": 6,
+            "bu": 7,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101082",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101082.jpg",
+        "name": "ヴァルテール",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101083",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101083.jpg",
+        "name": "スキニス",
+        "details": {
+            "zo": 1,
+            "bu": 9,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101084",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101084.jpg",
+        "name": "天の鹿児弓,ノイシュ弓",
+        "details": {
+            "zo": 4,
+            "bu": 8,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101085",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101085.jpg",
+        "name": "硬式ナッコォ",
+        "details": {
+            "zo": 3,
+            "bu": 7,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101087",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101087.jpg",
+        "name": "八幡薙刀",
+        "details": {
+            "zo": 3,
+            "bu": 4,
+            "ca": 1,
+            "sk": 9,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101088",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101088.jpg",
+        "name": "暇無し",
+        "details": {
+            "zo": 2,
+            "bu": 3,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101089",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101089.jpg",
+        "name": "アックスガール･アックス",
+        "details": {
+            "zo": 1,
+            "bu": 4,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101092",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101092.jpg",
+        "name": "暁",
+        "details": {
+            "zo": 2,
+            "bu": 10,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101093",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101093.jpg",
+        "name": "サマージェネシス",
+        "details": {
+            "zo": 6,
+            "bu": 7,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101102",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101102.jpg",
+        "name": "与力十手",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101103",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101103.jpg",
+        "name": "第八綿羊行刃",
+        "details": {
+            "zo": 4,
+            "bu": 4,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101105",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101105.jpg",
+        "name": "ライトニング･サヴァイヴ",
+        "details": {
+            "zo": 4,
+            "bu": 10,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101110",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101110.jpg",
+        "name": "ヴリスラグナ･サンドカモ",
+        "details": {
+            "zo": 3,
+            "bu": 6,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101111",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101111.jpg",
+        "name": "ミムメモ人形",
+        "details": {
+            "zo": 1,
+            "bu": 9,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101113",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101113.jpg",
+        "name": "オフィーリア",
+        "details": {
+            "zo": 2,
+            "bu": 9,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101122",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101122.jpg",
+        "name": "ブランドニューメロディ",
+        "details": {
+            "zo": 3,
+            "bu": 9,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101123",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101123.jpg",
+        "name": "セラステス",
+        "details": {
+            "zo": 3,
+            "bu": 3,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101125",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101125.jpg",
+        "name": "タバルジン",
+        "details": {
+            "zo": 5,
+            "bu": 4,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101126",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101126.jpg",
+        "name": "ディスターバンスシグナ",
+        "details": {
+            "zo": 4,
+            "bu": 5,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101127",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101127.jpg",
+        "name": "トリックサーペント",
+        "details": {
+            "zo": 1,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101128",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101128.jpg",
+        "name": "ブラックローズ",
+        "details": {
+            "zo": 2,
+            "bu": 2,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101131",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101131.jpg",
+        "name": "イノセント･フィギュア",
+        "details": {
+            "zo": 3,
+            "bu": 9,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101132",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101132.jpg",
+        "name": "オーロラボウ",
+        "details": {
+            "zo": 4,
+            "bu": 8,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101133",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101133.jpg",
+        "name": "ホープナックル",
+        "details": {
+            "zo": 5,
+            "bu": 7,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101134",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101134.jpg",
+        "name": "バーベル",
+        "details": {
+            "zo": 3,
+            "bu": 4,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101136",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101136.jpg",
+        "name": "トロピカルウィンター",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101137",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101137.jpg",
+        "name": "ユキハネ",
+        "details": {
+            "zo": 2,
+            "bu": 3,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101149",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101149.jpg",
+        "name": "セイントクリスタル",
+        "details": {
+            "zo": 5,
+            "bu": 5,
+            "ca": 1,
+            "sk": 2,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101151",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101151.jpg",
+        "name": "ワールドエンド",
+        "details": {
+            "zo": 3,
+            "bu": 1,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101152",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101152.jpg",
+        "name": "天干地支像･丑之飾",
+        "details": {
+            "zo": 4,
+            "bu": 9,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101153",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101153.jpg",
+        "name": "銀氷の槍グレイシャー",
+        "details": {
+            "zo": 2,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101154",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101154.jpg",
+        "name": "ギガントブレイダー",
+        "details": {
+            "zo": 5,
+            "bu": 10,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101155",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101155.jpg",
+        "name": "ミミングバゼラード,ゼヘク短剣",
+        "details": {
+            "zo": 6,
+            "bu": 2,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101156",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101156.jpg",
+        "name": "森神の祈杖",
+        "details": {
+            "zo": 5,
+            "bu": 5,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101158",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101158.jpg",
+        "name": "ウロボロス･オリジン,リミカリ杖",
+        "details": {
+            "zo": 5,
+            "bu": 5,
+            "ca": 1,
+            "sk": 12,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101159",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101159.jpg",
+        "name": "雷上道",
+        "details": {
+            "zo": 4,
+            "bu": 8,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101160",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101160.jpg",
+        "name": "ハート･ソングバーズ",
+        "details": {
+            "zo": 3,
+            "bu": 9,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101161",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101161.jpg",
+        "name": "ラブリーエース",
+        "details": {
+            "zo": 3,
+            "bu": 1,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101162",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101162.jpg",
+        "name": "グラナート･オブ･ウェールズ",
+        "details": {
+            "zo": 5,
+            "bu": 7,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101164",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101164.jpg",
+        "name": "アルベス･デミクロン",
+        "details": {
+            "zo": 2,
+            "bu": 3,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101165",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101165.jpg",
+        "name": "グロウノス･デミクロン",
+        "details": {
+            "zo": 1,
+            "bu": 4,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101166",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101166.jpg",
+        "name": "ブレイブソード",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101169",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101169.jpg",
+        "name": "プラズマクラック",
+        "details": {
+            "zo": 2,
+            "bu": 6,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101170",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101170.jpg",
+        "name": "エムブラスク･デミクロン",
+        "details": {
+            "zo": 3,
+            "bu": 1,
+            "ca": 1,
+            "sk": 15,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101176",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101176.jpg",
+        "name": "第九申行棒,水着アンチラ斧",
+        "details": {
+            "zo": 2,
+            "bu": 4,
+            "ca": 1,
+            "sk": 9,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101177",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101177.jpg",
+        "name": "第十二猪行槍,水着クビラ槍",
+        "details": {
+            "zo": 1,
+            "bu": 3,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101179",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101179.jpg",
+        "name": "火尖槍",
+        "details": {
+            "zo": 1,
+            "bu": 3,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101180",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101180.jpg",
+        "name": "ボンサイブレード",
+        "details": {
+            "zo": 1,
+            "bu": 10,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101183",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101183.jpg",
+        "name": "ライトニング･シュヴァルツ,闇アルベール剣",
+        "details": {
+            "zo": 6,
+            "bu": 1,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101184",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101184.jpg",
+        "name": "泡沫夢幻",
+        "details": {
+            "zo": 4,
+            "bu": 1,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101185",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101185.jpg",
+        "name": "レヴェイエ",
+        "details": {
+            "zo": 2,
+            "bu": 2,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101186",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101186.jpg",
+        "name": "ランセット",
+        "details": {
+            "zo": 5,
+            "bu": 2,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101188",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101188.jpg",
+        "name": "宿命鉄拳",
+        "details": {
+            "zo": 4,
+            "bu": 7,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101189",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101189.jpg",
+        "name": "チャーミング･ブルーム",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101190",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101190.jpg",
+        "name": "リンネ",
+        "details": {
+            "zo": 5,
+            "bu": 9,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101191",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101191.jpg",
+        "name": "メルヴェイユ",
+        "details": {
+            "zo": 3,
+            "bu": 7,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101193",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101193.jpg",
+        "name": "セ･ラ･ヴィ",
+        "details": {
+            "zo": 4,
+            "bu": 1,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101194",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101194.jpg",
+        "name": "瑠璃茉莉髪帯,瑠璃茉莉鬘帯",
+        "details": {
+            "zo": 1,
+            "bu": 7,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101195",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101195.jpg",
+        "name": "ブルータル･ハープーン",
+        "details": {
+            "zo": 2,
+            "bu": 3,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101196",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101196.jpg",
+        "name": "バブルレター",
+        "details": {
+            "zo": 3,
+            "bu": 6,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101198",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101198.jpg",
+        "name": "ウルスラグローブ,ウルスラ拳",
+        "details": {
+            "zo": 6,
+            "bu": 7,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101199",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101199.jpg",
+        "name": "アトランティス,ポセ槍",
+        "details": {
+            "zo": 2,
+            "bu": 3,
+            "ca": 1,
+            "sk": 13,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101200",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101200.jpg",
+        "name": "マリンエーテリアル,水着メーテラ弓",
+        "details": {
+            "zo": 3,
+            "bu": 8,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101203",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101203.jpg",
+        "name": "日輪橙音",
+        "details": {
+            "zo": 5,
+            "bu": 9,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101204",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101204.jpg",
+        "name": "タアロ･マサラ,タアロマサラ",
+        "details": {
+            "zo": 6,
+            "bu": 7,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101205",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101205.jpg",
+        "name": "ゾディアコ･ヴィテ,シャレム短剣",
+        "details": {
+            "zo": 2,
+            "bu": 2,
+            "ca": 1,
+            "sk": 3,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101206",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101206.jpg",
+        "name": "究極不変のダイアグラム,ダイアグラム",
+        "details": {
+            "zo": 5,
+            "bu": 5,
+            "ca": 1,
+            "sk": 17,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101208",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101208.jpg",
+        "name": "白司雕竜,光グレア刀",
+        "details": {
+            "zo": 5,
+            "bu": 10,
+            "ca": 1,
+            "sk": 3,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101209",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101209.jpg",
+        "name": "ベルファスト",
+        "details": {
+            "zo": 1,
+            "bu": 3,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101210",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101210.jpg",
+        "name": "アーソン･ブレイズ,エルモート杖",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101211",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101211.jpg",
+        "name": "ペイン･アンド･ストレイン,リッチ斧",
+        "details": {
+            "zo": 6,
+            "bu": 4,
+            "ca": 1,
+            "sk": 13,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101213",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101213.jpg",
+        "name": "コールブランド",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101214",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101214.jpg",
+        "name": "童子切安綱",
+        "details": {
+            "zo": 4,
+            "bu": 10,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101217",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101217.jpg",
+        "name": "ノーティーウィッチ,ククル銃",
+        "details": {
+            "zo": 3,
+            "bu": 6,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101218",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101218.jpg",
+        "name": "クリーピィクロウ,ヴェイン拳",
+        "details": {
+            "zo": 4,
+            "bu": 7,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101220",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101220.jpg",
+        "name": "君と僕の桃色水平線,桃色水平線",
+        "details": {
+            "zo": 5,
+            "bu": 5,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101221",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101221.jpg",
+        "name": "インサイテッドランス,エニュオ槍",
+        "details": {
+            "zo": 4,
+            "bu": 3,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101222",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101222.jpg",
+        "name": "アトロシウスブラッド,ベンジャミン斧",
+        "details": {
+            "zo": 3,
+            "bu": 4,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101223",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101223.jpg",
+        "name": "パンタグリュエル,光アルル槍",
+        "details": {
+            "zo": 5,
+            "bu": 3,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101225",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101225.jpg",
+        "name": "ボン･ジョワ,ランドル短剣",
+        "details": {
+            "zo": 4,
+            "bu": 2,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101226",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101226.jpg",
+        "name": "サイレントナイトリークス,土アンス杖",
+        "details": {
+            "zo": 3,
+            "bu": 5,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101228",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101228.jpg",
+        "name": "第十酉行杖,マキラ杖",
+        "details": {
+            "zo": 5,
+            "bu": 5,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101229",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101229.jpg",
+        "name": "六韜軍配,アルタイル短剣",
+        "details": {
+            "zo": 1,
+            "bu": 2,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101233",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101233.jpg",
+        "name": "ナイト･オブ･アイス,ランスロ短剣",
+        "details": {
+            "zo": 2,
+            "bu": 2,
+            "ca": 1,
+            "sk": 11,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101234",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101234.jpg",
+        "name": "セイレーノス,サテュロス剣",
+        "details": {
+            "zo": 3,
+            "bu": 1,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101235",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101235.jpg",
+        "name": "天干地支爪･寅之飾,シンダラ拳",
+        "details": {
+            "zo": 3,
+            "bu": 7,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101236",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101236.jpg",
+        "name": "呪蝕の骸槍,フェディ槍",
+        "details": {
+            "zo": 6,
+            "bu": 3,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101237",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101237.jpg",
+        "name": "エッタマク･イオ,イーウィヤ琴",
+        "details": {
+            "zo": 4,
+            "bu": 9,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101238",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101238.jpg",
+        "name": "虹の琴",
+        "details": {
+            "zo": 2,
+            "bu": 9,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101239",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101239.jpg",
+        "name": "リトルブーケフルール,風ユグ杖",
+        "details": {
+            "zo": 4,
+            "bu": 5,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101241",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101241.jpg",
+        "name": "炎威の翼鎌,ウィルナス斧",
+        "details": {
+            "zo": 1,
+            "bu": 4,
+            "ca": 1,
+            "sk": 12,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101242",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101242.jpg",
+        "name": "月刊キラメキVOL.29,火リルル杖",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101243",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101243.jpg",
+        "name": "醤箸玉杯,イッパツ槍",
+        "details": {
+            "zo": 6,
+            "bu": 3,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101245",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101245.jpg",
+        "name": "マリトッツォ",
+        "details": {
+            "zo": 2,
+            "bu": 7,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101246",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101246.jpg",
+        "name": "アルカン･ルージュ,火ヴィーラ剣",
+        "details": {
+            "zo": 1,
+            "bu": 1,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101247",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101247.jpg",
+        "name": "ハートビートミトン,光ファスティバ拳",
+        "details": {
+            "zo": 5,
+            "bu": 7,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101263",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101263.jpg",
+        "name": "グリンブルスティ,フレイ斧",
+        "details": {
+            "zo": 4,
+            "bu": 4,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101264",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101264.jpg",
+        "name": "ラ･シルフィード,シルフ琴",
+        "details": {
+            "zo": 1,
+            "bu": 9,
+            "ca": 1,
+            "sk": 12,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101265",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101265.jpg",
+        "name": "ハルモニア,ユニ琴",
+        "details": {
+            "zo": 5,
+            "bu": 9,
+            "ca": 1,
+            "sk": 13,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101266",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101266.jpg",
+        "name": "メドゥシアナ･フロート,水着メドゥ弓",
+        "details": {
+            "zo": 1,
+            "bu": 8,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101268",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101268.jpg",
+        "name": "鬼切安綱,浴衣ナルメア刀",
+        "details": {
+            "zo": 5,
+            "bu": 10,
+            "ca": 1,
+            "sk": 3,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101269",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101269.jpg",
+        "name": "コルクバレットシューター,浴衣シルヴァ銃",
+        "details": {
+            "zo": 1,
+            "bu": 6,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101270",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101270.jpg",
+        "name": "藍炎之刃,ヨウ短剣",
+        "details": {
+            "zo": 5,
+            "bu": 2,
+            "ca": 1,
+            "sk": 12,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101271",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101271.jpg",
+        "name": "バリアントランス,ラグナ槍",
+        "details": {
+            "zo": 3,
+            "bu": 3,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101275",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101275.jpg",
+        "name": "ジャックナイフ,スカル短剣",
+        "details": {
+            "zo": 3,
+            "bu": 2,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101276",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101276.jpg",
+        "name": "フェアトラウエン,水ソフィア杖",
+        "details": {
+            "zo": 2,
+            "bu": 5,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101278",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101278.jpg",
+        "name": "ガーリッシュドルチェ,ドルチェ",
+        "details": {
+            "zo": 6,
+            "bu": 7,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101279",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101279.jpg",
+        "name": "旅立ちの魔箒,アンナ槍",
+        "details": {
+            "zo": 1,
+            "bu": 3,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101283",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101283.jpg",
+        "name": "ヴェルゲルミル,エイレア剣",
+        "details": {
+            "zo": 4,
+            "bu": 1,
+            "ca": 1,
+            "sk": 4
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101284",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101284.jpg",
+        "name": "ウルジュワーニー,ジャミル短剣",
+        "details": {
+            "zo": 3,
+            "bu": 2,
+            "ca": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101286",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101286.jpg",
+        "name": "巌迫の躯杖,ガレヲン杖",
+        "details": {
+            "zo": 3,
+            "bu": 5,
+            "ca": 1,
+            "sk": 13,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101287",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101287.jpg",
+        "name": "ブルーライトニング,グウィン剣",
+        "details": {
+            "zo": 2,
+            "bu": 1,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101289",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101289.jpg",
+        "name": "第十一戌行刃,水着ヴァジラ刀",
+        "details": {
+            "zo": 6,
+            "bu": 10,
+            "ca": 1,
+            "sk": 17,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101290",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101290.jpg",
+        "name": "第一子行鞭,水着ビカラ剣",
+        "details": {
+            "zo": 3,
+            "bu": 1,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101291",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101291.jpg",
+        "name": "晴風番傘･花緑青,水着ミリン刀",
+        "details": {
+            "zo": 1,
+            "bu": 10,
+            "ca": 1,
+            "sk": 18,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101292",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101292.jpg",
+        "name": "散沙牡丹･夕時雨,水着シオン短剣",
+        "details": {
+            "zo": 4,
+            "bu": 2,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101298",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101298.jpg",
+        "name": "オーシャンクライン,水着クラリス琴",
+        "details": {
+            "zo": 2,
+            "bu": 9,
+            "ca": 1,
+            "sk": 7,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101299",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101299.jpg",
+        "name": "プルメリアンセプター,水着マギサ杖",
+        "details": {
+            "zo": 6,
+            "bu": 5,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101300",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101300.jpg",
+        "name": "バブルガムバンカー,水着ユース銃",
+        "details": {
+            "zo": 4,
+            "bu": 6,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101301",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101301.jpg",
+        "name": "サマーヒーリング,水着ティコ杖",
+        "details": {
+            "zo": 3,
+            "bu": 5,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101302",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101302.jpg",
+        "name": "シースフィア,水着スツルム剣",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101303",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101303.jpg",
+        "name": "水禍の麗傘,リミワム斧",
+        "details": {
+            "zo": 2,
+            "bu": 4,
+            "ca": 1,
+            "sk": 13,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101304",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101304.jpg",
+        "name": "ミスティーク,水着闇ジャンヌ",
+        "details": {
+            "zo": 2,
+            "bu": 3,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101307",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101307.jpg",
+        "name": "ハイランドクーガー,エリカ銃",
+        "details": {
+            "zo": 2,
+            "bu": 6,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101308",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101308.jpg",
+        "name": "ブレード･オブ･ロイヤリティ,アンダーソン剣",
+        "details": {
+            "zo": 1,
+            "bu": 1,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101311",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101311.jpg",
+        "name": "アークゥイバス･ラフィネス,アークゥイバス",
+        "details": {
+            "zo": 6,
+            "bu": 6,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101312",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101312.jpg",
+        "name": "イマジナリーナックル,ボーマン拳",
+        "details": {
+            "zo": 6,
+            "bu": 7,
+            "ca": 1,
+            "sk": 5,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101314",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101314.jpg",
+        "name": "ロード･オブ･フレイム,リミパー剣",
+        "details": {
+            "zo": 1,
+            "bu": 1,
+            "ca": 1,
+            "sk": 13,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101315",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101315.jpg",
+        "name": "ウェールズフラッグ",
+        "details": {
+            "zo": 3,
+            "bu": 3,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101328",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101328.jpg",
+        "name": "トリート･アンド･ストレイン,ハロリッチ斧",
+        "details": {
+            "zo": 4,
+            "bu": 4,
+            "ca": 1,
+            "sk": 3,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101329",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101329.jpg",
+        "name": "ニオウ,ハロムゲン琴",
+        "details": {
+            "zo": 5,
+            "bu": 9,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101330",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101330.jpg",
+        "name": "フィーストシグナ,ハロフロレンス杖",
+        "details": {
+            "zo": 5,
+            "bu": 5,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101332",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101332.jpg",
+        "name": "緋翔蒼舞扇",
+        "details": {
+            "zo": 6,
+            "bu": 7,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101333",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101333.jpg",
+        "name": "ダーリィ･ブレイド,風アリア剣",
+        "details": {
+            "zo": 4,
+            "bu": 1,
+            "ca": 1,
+            "sk": 7,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101335",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101335.jpg",
+        "name": "ゾア･イエシェンナ,アダム斧",
+        "details": {
+            "zo": 3,
+            "bu": 4,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101336",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101336.jpg",
+        "name": "タンザナイト･デュエラム,風テレーズ剣",
+        "details": {
+            "zo": 4,
+            "bu": 1,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101338",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101338.jpg",
+        "name": "セイントファウンテン,土エウロペ杖",
+        "details": {
+            "zo": 3,
+            "bu": 5,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101339",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101339.jpg",
+        "name": "エキササイズ･リース,闇フィオリト弓",
+        "details": {
+            "zo": 6,
+            "bu": 8,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101340",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101340.jpg",
+        "name": "第二丑行柔爪,",
+        "details": {
+            "zo": 2,
+            "bu": 7,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101341",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101341.jpg",
+        "name": "ストロベリースイング,火カイン刀",
+        "details": {
+            "zo": 1,
+            "bu": 10,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101348",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101348.jpg",
+        "name": "輝剣クラウ･ソラス･ディオン,リミシャル剣",
+        "details": {
+            "zo": 4,
+            "bu": 1,
+            "ca": 1,
+            "sk": 13,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101349",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101349.jpg",
+        "name": "氷晶刃,エリン短剣",
+        "details": {
+            "zo": 2,
+            "bu": 2,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101351",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101351.jpg",
+        "name": "天干地支刀･卯之飾,ミコラ刀",
+        "details": {
+            "zo": 5,
+            "bu": 10,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101352",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101352.jpg",
+        "name": "クリムゾンスケイル,ミカ斧",
+        "details": {
+            "zo": 1,
+            "bu": 4,
+            "ca": 1,
+            "sk": 13,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101353",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101353.jpg",
+        "name": "フライドスピア,フライデー槍",
+        "details": {
+            "zo": 4,
+            "bu": 3,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101354",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101354.jpg",
+        "name": "永遠の落款,ハルマル短剣",
+        "details": {
+            "zo": 6,
+            "bu": 2,
+            "ca": 1,
+            "sk": 13,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101355",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101355.jpg",
+        "name": "白銀の煌槍,エミリア槍",
+        "details": {
+            "zo": 3,
+            "bu": 3,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101358",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101358.jpg",
+        "name": "ウルレ･ラム,サンドリヨン短剣",
+        "details": {
+            "zo": 6,
+            "bu": 2,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101359",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101359.jpg",
+        "name": "ねこの正礼装,土オーキス杖",
+        "details": {
+            "zo": 3,
+            "bu": 5,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101361",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101361.jpg",
+        "name": "想い出の珈琲車厘,バレサンダル拳",
+        "details": {
+            "zo": 4,
+            "bu": 7,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101362",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101362.jpg",
+        "name": "バロウキャッツハンド,水セン杖",
+        "details": {
+            "zo": 2,
+            "bu": 5,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101364",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101364.jpg",
+        "name": "威光の逆鱗,ルオー拳",
+        "details": {
+            "zo": 5,
+            "bu": 7,
+            "ca": 1,
+            "sk": 13,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101365",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101365.jpg",
+        "name": "夢幻の蝋杖,ヘカテー杖",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101367",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101367.jpg",
+        "name": "劫風の翼鋭,イーウィヤ短剣",
+        "details": {
+            "zo": 4,
+            "bu": 2,
+            "ca": 1,
+            "sk": 13,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101368",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101368.jpg",
+        "name": "マリンエース,水着モニカ弓",
+        "details": {
+            "zo": 5,
+            "bu": 8,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101369",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101369.jpg",
+        "name": "紫梓想憧,水着アズサ銃",
+        "details": {
+            "zo": 6,
+            "bu": 6,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101377",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101377.jpg",
+        "name": "白芍巾着,浴衣イルザ斧",
+        "details": {
+            "zo": 6,
+            "bu": 4,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101378",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101378.jpg",
+        "name": "綉毬,浴衣ナタク拳",
+        "details": {
+            "zo": 1,
+            "bu": 7,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101379",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101379.jpg",
+        "name": "ヤイアのちゃーはん,ヤイア剣",
+        "details": {
+            "zo": 3,
+            "bu": 1,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101380",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101380.jpg",
+        "name": "ハーバル･バスケット,ジャスミン斧",
+        "details": {
+            "zo": 6,
+            "bu": 4,
+            "ca": 1,
+            "sk": 9,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101382",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101382.jpg",
+        "name": "メモリアヴィオリーノ,カンターテ琴",
+        "details": {
+            "zo": 4,
+            "bu": 9,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101383",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101383.jpg",
+        "name": "ティアドロップ･マンドリン,カロ琴",
+        "details": {
+            "zo": 4,
+            "bu": 9,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101385",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101385.jpg",
+        "name": "列剣フロガ,イカロス剣",
+        "details": {
+            "zo": 1,
+            "bu": 1,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101386",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101386.jpg",
+        "name": "サマーフリーズパラソル,風リリィ杖",
+        "details": {
+            "zo": 4,
+            "bu": 5,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101388",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101388.jpg",
+        "name": "リトルヴァーミリオン,光ドロッセル短剣",
+        "details": {
+            "zo": 5,
+            "bu": 2,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101389",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101389.jpg",
+        "name": "ハッピーエンドルフィン,水コルワ槍",
+        "details": {
+            "zo": 2,
+            "bu": 3,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101391",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101391.jpg",
+        "name": "ディアテシア",
+        "details": {
+            "zo": 5,
+            "bu": 9,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101392",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101392.jpg",
+        "name": "ソロモンアクセル,火バアル刀",
+        "details": {
+            "zo": 1,
+            "bu": 10,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101394",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101394.jpg",
+        "name": "シーオブドリーム,水着クピタン杖",
+        "details": {
+            "zo": 6,
+            "bu": 5,
+            "ca": 1,
+            "sk": 7,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101395",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101395.jpg",
+        "name": "富嶽景弓,浴衣フォリア弓",
+        "details": {
+            "zo": 3,
+            "bu": 8,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101397",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101397.jpg",
+        "name": "スプラッシュハウル,水着エニュオ銃",
+        "details": {
+            "zo": 1,
+            "bu": 6,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101398",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101398.jpg",
+        "name": "ビーチ･グロウノス,水着バザラガ斧",
+        "details": {
+            "zo": 2,
+            "bu": 4,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101400",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101400.jpg",
+        "name": "フェディエル・フロート,水着フェディ琴",
+        "details": {
+            "zo": 2,
+            "bu": 9,
+            "ca": 1,
+            "sk": 17,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101401",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101401.jpg",
+        "name": "サンセットブレイズ,水着アリーザ剣",
+        "details": {
+            "zo": 4,
+            "bu": 1,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101402",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101402.jpg",
+        "name": "ブライト＆サイレンス,水着ドロクラ銃",
+        "details": {
+            "zo": 1,
+            "bu": 6,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101403",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101403.jpg",
+        "name": "テンタクルジャベリン,水着ユリウス槍",
+        "details": {
+            "zo": 5,
+            "bu": 3,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101405",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101405.jpg",
+        "name": "夏の宵･紫陽,浴衣ヴァンピィ杖",
+        "details": {
+            "zo": 4,
+            "bu": 5,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101406",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101406.jpg",
+        "name": "第八綿羊行太刀,浴衣アニラ刀",
+        "details": {
+            "zo": 2,
+            "bu": 10,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101407",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101407.jpg",
+        "name": "盛夏と休息の剣,水着セルエル剣",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 9,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101409",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101409.jpg",
+        "name": "クリムゾンスティンガー,",
+        "details": {
+            "zo": 1,
+            "bu": 3,
+            "ca": 1,
+            "sk": 5,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101410",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101410.jpg",
+        "name": "マリッジリング",
+        "details": {
+            "zo": 6,
+            "bu": 7,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101412",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101412.jpg",
+        "name": "迦具夜之扇子,カグヤ短剣",
+        "details": {
+            "zo": 4,
+            "bu": 2,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101413",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101413.jpg",
+        "name": "ディニタドゥーカ ,パリス剣",
+        "details": {
+            "zo": 3,
+            "bu": 1,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101416",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101416.jpg",
+        "name": "黒竜騎士団制式帯剣･対竜,光ジーク刀",
+        "details": {
+            "zo": 5,
+            "bu": 10,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101417",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101417.jpg",
+        "name": "ナイト･ライダー,キャサリン拳",
+        "details": {
+            "zo": 4,
+            "bu": 7,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101418",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101418.jpg",
+        "name": "第一子行霊杖,",
+        "details": {
+            "zo": 2,
+            "bu": 5,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101419",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101419.jpg",
+        "name": "シリンジ･オア･トリート,",
+        "details": {
+            "zo": 6,
+            "bu": 6,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101420",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101420.jpg",
+        "name": "スプーキー･ミュー,",
+        "details": {
+            "zo": 3,
+            "bu": 4,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101422",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101422.jpg",
+        "name": "蒼桜紅葉丸,サビルバラ刀",
+        "details": {
+            "zo": 1,
+            "bu": 10,
+            "ca": 1,
+            "sk": 17,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101423",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101423.jpg",
+        "name": "千代紙風車,ウツセミ短剣",
+        "details": {
+            "zo": 5,
+            "bu": 2,
+            "ca": 1,
+            "sk": 16,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101430",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101430.jpg",
+        "name": "水天の福音,ガブ短剣",
+        "details": {
+            "zo": 2,
+            "bu": 2,
+            "ca": 1,
+            "sk": 13,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101431",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101431.jpg",
+        "name": "ロジックブレイカー,バロワ銃",
+        "details": {
+            "zo": 1,
+            "bu": 6,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101432",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101432.jpg",
+        "name": "アミュナ･サイフォス,ボレミア剣",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101434",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101434.jpg",
+        "name": "ノクスミーティア",
+        "details": {
+            "zo": 6,
+            "bu": 8,
+            "ca": 1,
+            "sk": 6,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101435",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101435.jpg",
+        "name": "ブロックバスター",
+        "details": {
+            "zo": 5,
+            "bu": 6,
+            "ca": 1,
+            "sk": 11,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101437",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101437.jpg",
+        "name": "バブ･ベル･ランデヴ,土シャレム琴",
+        "details": {
+            "zo": 3,
+            "bu": 9,
+            "ca": 1,
+            "sk": 17,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101438",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101438.jpg",
+        "name": "オーナメントパドル,火ノア槍",
+        "details": {
+            "zo": 1,
+            "bu": 3,
+            "ca": 1,
+            "sk": 2,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101440",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101440.jpg",
+        "name": "オーバーライド,リミゼタ槍",
+        "details": {
+            "zo": 1,
+            "bu": 3,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101441",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101441.jpg",
+        "name": "ドン･パリピニオン,ローアイン拳",
+        "details": {
+            "zo": 6,
+            "bu": 7,
+            "ca": 1,
+            "sk": 9,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101442",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101442.jpg",
+        "name": "天干地支扇･辰之飾,ハイラ短剣",
+        "details": {
+            "zo": 2,
+            "bu": 2,
+            "ca": 1,
+            "sk": 10,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101443",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101443.jpg",
+        "name": "パイルスマッシュ,リミウリエル拳",
+        "details": {
+            "zo": 3,
+            "bu": 7,
+            "ca": 1,
+            "sk": 14,
+            "sw": 3
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101444",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101444.jpg",
+        "name": "ザ･ダイナソー,ティラ斧",
+        "details": {
+            "zo": 6,
+            "bu": 4,
+            "ca": 1,
+            "sk": 15,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101448",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101448.jpg",
+        "name": "宵闇の堕杖",
+        "details": {
+            "zo": 3,
+            "bu": 5,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101449",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101449.jpg",
+        "name": "ペネトレイトインパルス",
+        "details": {
+            "zo": 2,
+            "bu": 3,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101451",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101451.jpg",
+        "name": "義勇のキリジ",
+        "details": {
+            "zo": 2,
+            "bu": 1,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101452",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101452.jpg",
+        "name": "ヴィオラ･ナストロ",
+        "details": {
+            "zo": 5,
+            "bu": 5,
+            "ca": 1,
+            "sk": 9,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101453",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101453.jpg",
+        "name": "第三双寅行弓,シンダラ弓",
+        "details": {
+            "zo": 6,
+            "bu": 8,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101454",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101454.jpg",
+        "name": "ラカン",
+        "details": {
+            "zo": 1,
+            "bu": 9,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101457",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101457.jpg",
+        "name": "エフェス,リミサン剣",
+        "details": {
+            "zo": 5,
+            "bu": 1,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101458",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101458.jpg",
+        "name": "ラドリスの護剣,サブリナ短剣",
+        "details": {
+            "zo": 3,
+            "bu": 2,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101459",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101459.jpg",
+        "name": "ロイヤルストレートフラッシュ",
+        "details": {
+            "zo": 4,
+            "bu": 7,
+            "ca": 1,
+            "sk": 4,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101461",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101461.jpg",
+        "name": "不死鳥の灯火,フェニ杖",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 18,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101462",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101462.jpg",
+        "name": "ウアス･セプトラ,ホルス杖",
+        "details": {
+            "zo": 5,
+            "bu": 5,
+            "ca": 1,
+            "sk": 3,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101463",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101463.jpg",
+        "name": "ビヨンド･ザ･ディマイズ,メイガス斧",
+        "details": {
+            "zo": 6,
+            "bu": 4,
+            "ca": 1,
+            "sk": 1,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101471",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101471.jpg",
+        "name": "サマーナイトブレイズ,浴衣エルモート杖",
+        "details": {
+            "zo": 1,
+            "bu": 5,
+            "ca": 1,
+            "sk": 17,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "ls101472",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/ls101472.jpg",
+        "name": "ディアマントフルレ,浴衣レフィーエ剣",
+        "details": {
+            "zo": 6,
+            "bu": 1,
+            "ca": 1,
+            "sk": 8,
+            "sw": 1
+        },
+        "dtype": 0
+    },
+    {
+        "id": "6291_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6291_m.jpg",
+        "name": "トリプルゼロ",
+        "details": {
+            "zo": 5,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6051-04_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6051-04_m.jpg",
+        "name": "ルシフェル",
+        "details": {
+            "zo": 5,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6002-04_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6002-04_m.jpg",
+        "name": "バハムート2",
+        "details": {
+            "zo": 6,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6283_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6283_m.jpg",
+        "name": "ヤチマ",
+        "details": {
+            "zo": 2,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6273_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6273_m.jpg",
+        "name": "ベルゼバブ",
+        "details": {
+            "zo": 6,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6222_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6222_m.jpg",
+        "name": "ベリアル",
+        "details": {
+            "zo": 6,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6277_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6277_m.jpg",
+        "name": "水着ベリアル",
+        "details": {
+            "zo": 1,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6098_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6098_m.jpg",
+        "name": "シヴァ",
+        "details": {
+            "zo": 1,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6177_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6177_m.jpg",
+        "name": "ミカエル",
+        "details": {
+            "zo": 1,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6193_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6193_m.jpg",
+        "name": "ガブリエル",
+        "details": {
+            "zo": 2,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6124_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6124_m.jpg",
+        "name": "ウリエル",
+        "details": {
+            "zo": 3,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6126_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6126_m.jpg",
+        "name": "ラファエル",
+        "details": {
+            "zo": 4,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6202_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6202_m.jpg",
+        "name": "サリエル",
+        "details": {
+            "zo": 6,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6205_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6205_m.jpg",
+        "name": "メタトロン",
+        "details": {
+            "zo": 5,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6122_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6122_m.jpg",
+        "name": "ハールート･マールート",
+        "details": {
+            "zo": 5,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6066_02m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6066_02m.jpg",
+        "name": "ゼウス",
+        "details": {
+            "zo": 5,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6068_02m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6068_02m.jpg",
+        "name": "ティターン",
+        "details": {
+            "zo": 3,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6071_02m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6071_02m.jpg",
+        "name": "ハデス",
+        "details": {
+            "zo": 6,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6073_02m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6073_02m.jpg",
+        "name": "アグニス",
+        "details": {
+            "zo": 1,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6079_02m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6079_02m.jpg",
+        "name": "ヴァルナ",
+        "details": {
+            "zo": 2,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6077_02m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6077_02m.jpg",
+        "name": "ゼピュロス",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6264_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6264_m.jpg",
+        "name": "ウィルナス",
+        "details": {
+            "zo": 1,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6267_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6267_m.jpg",
+        "name": "ガレヲン",
+        "details": {
+            "zo": 3,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6271_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6271_m.jpg",
+        "name": "イーウィヤ",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6275_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6275_m.jpg",
+        "name": "ル･オー",
+        "details": {
+            "zo": 5,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6279_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6279_m.jpg",
+        "name": "ワムデュス",
+        "details": {
+            "zo": 2,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6284_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6284_m.jpg",
+        "name": "フェディエル",
+        "details": {
+            "zo": 6,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6247_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6247_m.jpg",
+        "name": "アルテミス",
+        "details": {
+            "zo": 5,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6125_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6125_m.jpg",
+        "name": "ゴリラ",
+        "details": {
+            "zo": 3,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6002-03_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6002-03_m.jpg",
+        "name": "バハムート",
+        "details": {
+            "zo": 6,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6051-03_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6051-03_m.jpg",
+        "name": "ルシフェル",
+        "details": {
+            "zo": 5,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6081_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6081_m.jpg",
+        "name": "カグヤ",
+        "details": {
+            "zo": 2,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6089_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6089_m.jpg",
+        "name": "カツウォヌス",
+        "details": {
+            "zo": 2,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6101_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6101_m.jpg",
+        "name": "ゴッドガード･ブローディア",
+        "details": {
+            "zo": 3,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6104_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6104_m.jpg",
+        "name": "エウロペ",
+        "details": {
+            "zo": 2,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6120_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6120_m.jpg",
+        "name": "グリームニル",
+        "details": {
+            "zo": 4,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6059_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6059_m.jpg",
+        "name": "ジ･オーダー･グランデ",
+        "details": {
+            "zo": 5,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6228_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6228_m.jpg",
+        "name": "セキトバ",
+        "details": {
+            "zo": 1,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6230_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6230_m.jpg",
+        "name": "カリュブディス",
+        "details": {
+            "zo": 2,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6237_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6237_m.jpg",
+        "name": "マンモス",
+        "details": {
+            "zo": 3,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6251_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6251_m.jpg",
+        "name": "ジルニトラ",
+        "details": {
+            "zo": 6,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6268_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6268_m.jpg",
+        "name": "水着ティアマト",
+        "details": {
+            "zo": 4,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6269_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6269_m.jpg",
+        "name": "水着マンドラゴラ",
+        "details": {
+            "zo": 3,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6282_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6282_m.jpg",
+        "name": "ヘカテー",
+        "details": {
+            "zo": 1,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6290_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6290_m.jpg",
+        "name": "ノワール",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6289_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6289_m.jpg",
+        "name": "水着ティラノ",
+        "details": {
+            "zo": 2,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6286_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6286_m.jpg",
+        "name": "水着ケルベロス",
+        "details": {
+            "zo": 1,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6254_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6254_m.jpg",
+        "name": "サリエル<br>(クリスマス)",
+        "details": {
+            "zo": 6,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6258_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6258_m.jpg",
+        "name": "ツチノコ",
+        "details": {
+            "zo": 3,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6215_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6215_m.jpg",
+        "name": "竜吉公主",
+        "details": {
+            "zo": 2,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6233_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6233_m.jpg",
+        "name": "オウルキャット",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6217_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6217_m.jpg",
+        "name": "ドグー",
+        "details": {
+            "zo": 3,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6219_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6219_m.jpg",
+        "name": "エッリル",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6224_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6224_m.jpg",
+        "name": "ヘイムダル",
+        "details": {
+            "zo": 5,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6082_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6082_m.jpg",
+        "name": "バイヴカハ",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6083_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6083_m.jpg",
+        "name": "プロメテウス",
+        "details": {
+            "zo": 1,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6084_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6084_m.jpg",
+        "name": "ギルガメッシュ",
+        "details": {
+            "zo": 3,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6085_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6085_m.jpg",
+        "name": "アヌビス",
+        "details": {
+            "zo": 6,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6086_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6086_m.jpg",
+        "name": "ヘクトル",
+        "details": {
+            "zo": 5,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6088_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6088_m.jpg",
+        "name": "カー･オン",
+        "details": {
+            "zo": 2,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6097_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6097_m.jpg",
+        "name": "テュポーン",
+        "details": {
+            "zo": 6,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6099_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6099_m.jpg",
+        "name": "トール",
+        "details": {
+            "zo": 5,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6123_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6123_m.jpg",
+        "name": "フレイ",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6240_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6240_m.jpg",
+        "name": "浴衣フレイ",
+        "details": {
+            "zo": 3,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6127_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6127_m.jpg",
+        "name": "水着マキュラ･マリウス",
+        "details": {
+            "zo": 2,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6278_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6278_m.jpg",
+        "name": "水着スリーピィ",
+        "details": {
+            "zo": 6,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6174_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6174_m.jpg",
+        "name": "愛と戦いの神アナト",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6179_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6179_m.jpg",
+        "name": "気高き水神ポセイドン",
+        "details": {
+            "zo": 2,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6198_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6198_m.jpg",
+        "name": "破格の戦鬼マルドゥーク",
+        "details": {
+            "zo": 3,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6192_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6192_m.jpg",
+        "name": "白純の霊蝶シルフ",
+        "details": {
+            "zo": 1,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6128_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6128_m.jpg",
+        "name": "ハンサ",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6129_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6129_m.jpg",
+        "name": "アフロディーテ",
+        "details": {
+            "zo": 5,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6211_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6211_m.jpg",
+        "name": "水着ローズクイーン",
+        "details": {
+            "zo": 4,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6049_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6049_m.jpg",
+        "name": "サテュロス",
+        "details": {
+            "zo": 1,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6200_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6200_m.jpg",
+        "name": "魔鯛",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6213_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6213_m.jpg",
+        "name": "スルト",
+        "details": {
+            "zo": 1,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6226_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6226_m.jpg",
+        "name": "ナイアルラトホテップ",
+        "details": {
+            "zo": 6,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6210_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6210_m.jpg",
+        "name": "水着サテュロス",
+        "details": {
+            "zo": 1,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6236_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6236_m.jpg",
+        "name": "水着アテナ",
+        "details": {
+            "zo": 1,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6208_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6208_m.jpg",
+        "name": "水着ユグドラシル",
+        "details": {
+            "zo": 3,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6094_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6094_m.jpg",
+        "name": "テスカトリポカ",
+        "details": {
+            "zo": 3,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6107_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6107_m.jpg",
+        "name": "スノウホワイト",
+        "details": {
+            "zo": 2,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6118_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6118_m.jpg",
+        "name": "アドラメレク",
+        "details": {
+            "zo": 5,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6020_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6020_m.jpg",
+        "name": "アテナ",
+        "details": {
+            "zo": 1,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6022_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6022_m.jpg",
+        "name": "アポロン",
+        "details": {
+            "zo": 5,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6028_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6028_m.jpg",
+        "name": "オーディン",
+        "details": {
+            "zo": 5,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6196_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6196_m.jpg",
+        "name": "三知一鎧の賢者マギ",
+        "details": {
+            "zo": 5,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6195_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6195_m.jpg",
+        "name": "冥界の三魔犬ケルベロス",
+        "details": {
+            "zo": 6,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6062_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6062_m.jpg",
+        "name": "ガルーダ",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6102_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6102_m.jpg",
+        "name": "ナハト",
+        "details": {
+            "zo": 6,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6103_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6103_m.jpg",
+        "name": "シャインホーク･ガルラ",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6105_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6105_m.jpg",
+        "name": "ザオシェン",
+        "details": {
+            "zo": 1,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6106_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6106_m.jpg",
+        "name": "アンクシャ",
+        "details": {
+            "zo": 3,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6001_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6001_m.jpg",
+        "name": "マキュラ･マリウス",
+        "details": {
+            "zo": 2,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6003_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6003_m.jpg",
+        "name": "雷霆公",
+        "details": {
+            "zo": 5,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6004_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6004_m.jpg",
+        "name": "Dエンジェル･オリヴィエ",
+        "details": {
+            "zo": 6,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6012_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6012_m.jpg",
+        "name": "バアル",
+        "details": {
+            "zo": 3,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6054_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6054_m.jpg",
+        "name": "メドゥーサ",
+        "details": {
+            "zo": 3,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6241_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6241_m.jpg",
+        "name": "水着カグヤ",
+        "details": {
+            "zo": 5,
+            "get": 2
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6092_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6092_m.jpg",
+        "name": "セスランス",
+        "details": {
+            "zo": 1,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6096_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6096_m.jpg",
+        "name": "セト",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6100_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6100_m.jpg",
+        "name": "ローズクイーン",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6121_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6121_m.jpg",
+        "name": "ツクヨミ",
+        "details": {
+            "zo": 6,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6006_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6006_m.jpg",
+        "name": "グラニ",
+        "details": {
+            "zo": 2,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6040_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6040_m.jpg",
+        "name": "ナタク",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6032_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6032_m.jpg",
+        "name": "オケアノス",
+        "details": {
+            "zo": 2,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6035_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6035_m.jpg",
+        "name": "キュベレー",
+        "details": {
+            "zo": 3,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6000_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6000_m.jpg",
+        "name": "サタン",
+        "details": {
+            "zo": 6,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6011_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6011_m.jpg",
+        "name": "リッチ",
+        "details": {
+            "zo": 6,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6008_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6008_m.jpg",
+        "name": "ケツァルカトル",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6016_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6016_m.jpg",
+        "name": "セイレーン",
+        "details": {
+            "zo": 4,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6057_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6057_m.jpg",
+        "name": "フラム＝グラス",
+        "details": {
+            "zo": 1,
+            "get": 1
+        },
+        "dtype": 1
+    },
+    {
+        "id": "6061_m",
+        "img": "https://img.gamewith.jp/article_tools/granbluefantasy/gacha/6061_m.jpg",
+        "name": "ネプチューン",
+        "details": {
+            "zo": 2,
+            "get": 1
+        },
+        "dtype": 1
+    }
+]
