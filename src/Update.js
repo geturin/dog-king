@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import ItemCard from "./item/itemCard";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 const Update = () => {
+  // 测试数据：用户信息
+  const uid = "1";
+
   const [allItems, setAllItems] = useState([]);
   const [filteredItems, setFilteredItems] = useState([]);
   const [selectedZo, setSelectedZo] = useState(new Set());
@@ -10,7 +15,7 @@ const Update = () => {
   const [selectedGet, setSelectedGet] = useState(new Set());
   const [data, setData] = useState({});
   const [selectedKeys, setSelectedKeys] = useState([]);
-  const [selectedKey, setSelectedKey] = useState("15");
+  const [selectedDate, setSelectedDate] = useState(new Date());
 
   useEffect(() => {
     fetch("https://api.kero.zone/dogking/getAllItems") // 从 API 加载数据
@@ -28,12 +33,13 @@ const Update = () => {
   }, []);
 
   useEffect(() => {
-    fetch("https://api.kero.zone/dogking/scorelist")
+    fetch(`https://api.kero.zone/dogking/getuUserScoreGroupByDate?uid=${uid}`)
       .then((response) => response.json())
       .then((data) => {
         setData(data);
-        // 初始化selectedKeys为key=15的value
-        setSelectedKeys(data["15"] ? data["15"].split(",") : []);
+        // 初始化selectedKeys为当天日期的value
+        const todayKey = formatDate(new Date());
+        setSelectedKeys(data[todayKey] ? data[todayKey].split(",") : []);
       })
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
@@ -72,13 +78,20 @@ const Update = () => {
   );
 
   const handleItemRemove = (item) => {
-    setSelectedKeys((prevKeys) => prevKeys.filter((key) => key !== item.id));
+    setSelectedKeys((prevKeys) => {
+      const index = prevKeys.indexOf(item.id);
+      if (index !== -1) {
+        const newKeys = [...prevKeys];
+        newKeys.splice(index, 1);
+        return newKeys;
+      }
+      return prevKeys;
+    });
   };
 
-  const handleSelectChange = (event) => {
-    const key = event.target.value;
-    // 根据选定的key更新selectedKeys
-    setSelectedKey(key); // 更新当前选中的键
+  const handleDateChange = (date) => {
+    setSelectedDate(date);
+    const key = formatDate(date);
     setSelectedKeys(data[key] ? data[key].split(",") : []);
   };
 
@@ -90,12 +103,13 @@ const Update = () => {
   // post api 更新分数池
   const handleSubmit = () => {
     const payload = {
-      key: selectedKey,
+      uid: String(uid),
+      date: formatDate(selectedDate),
       value: selectedKeys.join(","),
     };
 
     // 发送数据到API
-    fetch("https://api.kero.zone/dogking/scoreUpdate/", {
+    fetch("https://api.kero.zone/dogking/updateUserScore/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -107,12 +121,21 @@ const Update = () => {
         console.log("Success:", updatedData);
         setData(updatedData); // 使用返回的更新后的数据更新本地状态
         setSelectedKeys(
-          updatedData[selectedKey] ? updatedData[selectedKey].split(",") : []
+          updatedData[formatDate(selectedDate)]
+            ? updatedData[formatDate(selectedDate)].split(",")
+            : []
         ); // 更新selectedKeys以反映当前选中的key对应的最新值
       })
       .catch((error) => {
         console.error("Error:", error);
       });
+  };
+
+  const formatDate = (date) => {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, "0");
+    const day = String(date.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
   };
 
   return (
@@ -184,19 +207,17 @@ const Update = () => {
         <Col md={6}>
           <div className="item-card-container">
             <div className="mb-3">
-              <Form.Select
-                aria-label="Select key"
-                onChange={handleSelectChange}
-                value={selectedKey}
-              >
-                {/* 动态生成选择项 */}
-                {Object.keys(data).map((key) => (
-                  <option key={key} value={key}>
-                    分数 {key}
-                  </option>
-                ))}
-              </Form.Select>
-              <Button onClick={handleSubmit}>提交数据</Button>
+              <DatePicker
+                selected={selectedDate}
+                onChange={handleDateChange}
+                dateFormat="yyyy-MM-dd"
+                className="form-control"
+              />
+              {formatDate(selectedDate) === formatDate(new Date()) ? (
+                <Button onClick={handleSubmit} className="mt-3">
+                  提交数据
+                </Button>
+              ) : null}
               <span
                 className="ml-3 text-danger"
                 style={{ verticalAlign: "middle" }}
@@ -204,7 +225,6 @@ const Update = () => {
                 ※未分类武器=3分，未分类召唤=1分
               </span>
             </div>
-            {/* <div className="title">选择分数的</div> */}
             <ItemCard items={selectedItems} onItemClick={handleItemRemove} />
           </div>
         </Col>

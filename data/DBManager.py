@@ -264,6 +264,24 @@ class DBManager:
         conn.commit()
         conn.close()
 
+    def fetch_user_scores_group_by_date(self, uid):
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+
+        cursor.execute(
+            """
+            SELECT date, GROUP_CONCAT(item_id) as item_ids
+            FROM user_gacha
+            WHERE uid = ?
+            GROUP BY date
+            """,
+            (uid,),
+        )
+        records = cursor.fetchall()
+        conn.close()
+
+        return {str(date): ids if ids else "" for date, ids in records}
+
     def clear_data(self):
         """清空数据库中的数据（开发测试用）"""
         conn = sqlite3.connect(self.db_path)
