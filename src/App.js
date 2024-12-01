@@ -40,6 +40,9 @@ function Home() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <a className="App-link" href="/Update" rel="noopener noreferrer">
+          报分
+        </a>
         <a className="App-link" href="/item_score" rel="noopener noreferrer">
           计分表管理
         </a>
@@ -75,6 +78,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/item_score" element={<ItemSCore />} />
+        <Route path="/Update" element={<Update />} />
       </Routes>
     </Router>
   );
