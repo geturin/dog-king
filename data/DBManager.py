@@ -231,6 +231,7 @@ class DBManager:
             """
             SELECT item_score, GROUP_CONCAT(item_id) as item_ids
             FROM scores
+            WHERE item_score NOT IN (0,1,3)
             GROUP BY item_score
         """
         )
