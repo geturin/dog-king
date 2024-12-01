@@ -95,6 +95,13 @@ const Update = () => {
     setSelectedKeys(data[key] ? data[key].split(",") : []);
   };
 
+  const [isExpanded, setIsExpanded] = useState(true);
+
+  // 控制折叠/展开的处理函数
+  const toggleExpand = () => {
+    setIsExpanded((prevState) => !prevState);
+  };
+
   // 使用 useEffect 来监听 selectedKeys 的变化
   useEffect(() => {
     console.log("Selected Keys Updated:", selectedKeys);
@@ -200,8 +207,24 @@ const Update = () => {
             </div>
           </Form>
           <div className="item-card-container">
-            <div className="title">筛选结果</div>
-            <ItemCard items={filteredItems} onItemClick={handleItemClick} />
+            <button
+              onClick={toggleExpand}
+              className="toggle-button"
+              style={{
+                marginLeft: "10px",
+                cursor: "pointer",
+                border: "none",
+                background: "none",
+                fontSize: "16px",
+              }}
+            >
+              <div className="title">
+                {isExpanded ? "筛选结果▲" : "筛选结果▼"}
+              </div>
+            </button>
+            <div style={{ display: isExpanded ? "block" : "none" }}>
+              <ItemCard items={filteredItems} onItemClick={handleItemClick} />
+            </div>
           </div>
         </Col>
         <Col md={6}>
