@@ -207,7 +207,7 @@ class DBManager:
         # 将之前所有item_score等于new_score的记录的分数设为NULL
         cursor.execute(
             """
-        UPDATE scores SET item_score = NULL WHERE item_score = ?
+        UPDATE scores SET item_score = 0 WHERE item_score = ?
         """,
             (new_score,),
         )
@@ -224,16 +224,20 @@ class DBManager:
         conn.close()
 
     def fetch_all_scores(self):
-        """返回 scores 表中所有记录"""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        cursor.execute("SELECT item_id, item_score FROM scores")
+
+        cursor.execute(
+            """
+            SELECT item_score, GROUP_CONCAT(item_id) as item_ids
+            FROM scores
+            GROUP BY item_score
+        """
+        )
         records = cursor.fetchall()
         conn.close()
-        return [
-            {"item_id": item_id, "item_score": item_score}
-            for item_id, item_score in records
-        ]
+
+        return {str(score): ids if ids else "" for score, ids in records}
 
     def update_user_gacha(self, uid, new_item_ids, date):
         """更新user_gacha表中指定用户的数据"""
