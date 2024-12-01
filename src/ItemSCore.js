@@ -13,8 +13,13 @@ const Update = () => {
   const [selectedKey, setSelectedKey] = useState("15");
 
   useEffect(() => {
-    fetch("/output.json")
-      .then((response) => response.json())
+    fetch("https://api.kero.zone/dogking/getAllItems") // 从 API 加载数据
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
       .then((data) => {
         setAllItems(data);
         setFilteredItems(data);

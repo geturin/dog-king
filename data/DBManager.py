@@ -281,4 +281,4 @@ class DBManager:
 
 if __name__ == "__main__":
     db_manager = DBManager(".data.db")
-    print(db_manager.fetch_items())
+    db_manager.update_scores("ls101472", "1")
