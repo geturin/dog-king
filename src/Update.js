@@ -229,24 +229,20 @@ const Update = () => {
         </Col>
         <Col md={6}>
           <div className="item-card-container">
-            <div className="mb-3">
+            <div className="mb-1">
               <DatePicker
                 selected={selectedDate}
                 onChange={handleDateChange}
                 dateFormat="yyyy-MM-dd"
                 className="form-control"
               />
+            </div>
+            <div className="mb-1">
               {formatDate(selectedDate) === formatDate(new Date()) ? (
-                <Button onClick={handleSubmit} className="mt-3">
+                <Button onClick={handleSubmit} className="mt-1">
                   提交数据
                 </Button>
               ) : null}
-              <span
-                className="ml-3 text-danger"
-                style={{ verticalAlign: "middle" }}
-              >
-                ※未分类武器=3分，未分类召唤=1分
-              </span>
             </div>
             <ItemCard items={selectedItems} onItemClick={handleItemRemove} />
           </div>
