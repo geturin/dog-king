@@ -223,6 +223,18 @@ class DBManager:
         conn.commit()
         conn.close()
 
+    def fetch_all_scores(self):
+        """返回 scores 表中所有记录"""
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute("SELECT item_id, item_score FROM scores")
+        records = cursor.fetchall()
+        conn.close()
+        return [
+            {"item_id": item_id, "item_score": item_score}
+            for item_id, item_score in records
+        ]
+
     def update_user_gacha(self, uid, new_item_ids, date):
         """更新user_gacha表中指定用户的数据"""
         conn = sqlite3.connect(self.db_path)
