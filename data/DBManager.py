@@ -50,6 +50,29 @@ class DBManager:
         """
         )
 
+        # 创建users表
+        cursor.execute(
+            """
+        CREATE TABLE IF NOT EXISTS users (
+            uid TEXT PRIMARY KEY,
+            name TEXT,
+            psw TEXT,
+            icon TEXT
+        )
+        """
+        )
+
+        # 创建user_gacha表
+        cursor.execute(
+            """
+        CREATE TABLE IF NOT EXISTS user_gacha (
+            uid TEXT,
+            item_id TEXT,
+            date TEXT
+        )
+        """
+        )
+
         conn.commit()
         conn.close()
 
@@ -200,6 +223,30 @@ class DBManager:
         conn.commit()
         conn.close()
 
+    def update_user_gacha(self, uid, new_item_ids, date):
+        """更新user_gacha表中指定用户的数据"""
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+
+        # 删除已有的相同uid和date的记录
+        cursor.execute(
+            """
+        DELETE FROM user_gacha WHERE uid = ? AND date = date(?)
+        """,
+            (uid, date),
+        )
+
+        # 插入新数据
+        cursor.executemany(
+            """
+        INSERT INTO user_gacha (uid, item_id, date) VALUES (?, ?, date(?))
+        """,
+            [(uid, item_id, date) for item_id in new_item_ids],
+        )
+
+        conn.commit()
+        conn.close()
+
     def clear_data(self):
         """清空数据库中的数据（开发测试用）"""
         conn = sqlite3.connect(self.db_path)
@@ -208,10 +255,13 @@ class DBManager:
         cursor.execute("DELETE FROM items")
         cursor.execute("DELETE FROM details")
         cursor.execute("DELETE FROM scores")
+        cursor.execute("DELETE FROM users")
+        cursor.execute("DELETE FROM user_gacha")
 
         conn.commit()
         conn.close()
 
 
-db_manager = DBManager(".data.db")
-print(db_manager.fetch_items())
+if __name__ == "__main__":
+    db_manager = DBManager(".data.db")
+    print(db_manager.fetch_items())
