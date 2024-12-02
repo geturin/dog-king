@@ -1,0 +1,26 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #5a67d8;
+  border: none;
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #434190;
+}

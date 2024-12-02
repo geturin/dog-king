@@ -53,12 +53,12 @@ class DBManager:
         # 创建users表
         cursor.execute(
             """
-        CREATE TABLE IF NOT EXISTS users (
-            uid TEXT PRIMARY KEY,
-            name TEXT,
-            psw TEXT,
-            icon TEXT
-        )
+            CREATE TABLE IF NOT EXISTS users (
+                uid INTEGER PRIMARY KEY AUTOINCREMENT,
+                name TEXT,
+                psw TEXT,
+                icon TEXT
+            )
         """
         )
 
@@ -281,6 +281,39 @@ class DBManager:
         conn.close()
 
         return {str(date): ids if ids else "" for date, ids in records}
+
+    def user_login(self, name, psw):
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+
+        cursor.execute(
+            """
+            SELECT uid
+            FROM users
+            WHERE name = ? AND psw = ?
+            """,
+            (name, psw),
+        )
+        user = cursor.fetchone()
+        conn.close()
+
+        return {"uid": user[0]} if user else {"uid": "0"}
+
+    def create_user(self, name, psw):
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+
+        cursor.executemany(
+            """
+        INSERT INTO users (name , psw) VALUES (?, ?)
+        """,
+            [(name, psw)],
+        )
+
+        conn.commit()
+        conn.close()
+
+        return self.user_login(name, psw)
 
     def clear_data(self):
         """清空数据库中的数据（开发测试用）"""

@@ -4,10 +4,7 @@ import ItemCard from "./item/itemCard";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
-const Update = () => {
-  // 测试数据：用户信息
-  const uid = "1";
-
+const Update = ({ uid }) => {
   const [allItems, setAllItems] = useState([]);
   const [filteredItems, setFilteredItems] = useState([]);
   const [selectedZo, setSelectedZo] = useState(new Set());
@@ -145,6 +142,9 @@ const Update = () => {
     return `${year}-${month}-${day}`;
   };
 
+  if (!uid) {
+    return <div>Please login to access this page.</div>;
+  }
   return (
     <Container>
       <Row>

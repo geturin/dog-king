@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Spinner, Alert } from "react-bootstrap";
 import Update from "./Update";
 import ItemSCore from "./ItemSCore";
+import LoginAndUpdate from "./LoginAndUpdate";
 import logo from "./dog.png";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -78,7 +79,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/item_score" element={<ItemSCore />} />
-        <Route path="/Update" element={<Update />} />
+        <Route path="/Update" element={<LoginAndUpdate />} />
       </Routes>
     </Router>
   );
