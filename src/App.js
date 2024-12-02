@@ -4,6 +4,8 @@ import { Spinner, Alert } from "react-bootstrap";
 import Update from "./Update";
 import ItemSCore from "./ItemSCore";
 import LoginAndUpdate from "./LoginAndUpdate";
+import Register from "./item/register";
+import Leaderboard from "./item/leaderboard";
 import logo from "./dog.png";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -68,6 +70,9 @@ function Home() {
             更新失败，请稍后再试。
           </Alert>
         )}
+        <a className="App-link" href="/leaderborad" rel="noopener noreferrer">
+          总分排行榜
+        </a>
       </header>
     </div>
   );
@@ -80,6 +85,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/item_score" element={<ItemSCore />} />
         <Route path="/Update" element={<LoginAndUpdate />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/leaderborad" element={<Leaderboard />} />
       </Routes>
     </Router>
   );

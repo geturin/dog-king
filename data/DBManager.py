@@ -282,6 +282,21 @@ class DBManager:
 
         return {str(date): ids if ids else "" for date, ids in records}
 
+    def fetch_all_user_name(self):
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+
+        cursor.execute(
+            """
+            SELECT name
+            FROM users            
+            """,
+        )
+        records = cursor.fetchall()
+        conn.close()
+
+        return records
+
     def user_login(self, name, psw):
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
@@ -314,6 +329,38 @@ class DBManager:
         conn.close()
 
         return self.user_login(name, psw)
+
+    def fetch_all_user_scores(self):
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+
+        cursor.execute(
+            """
+            SELECT u.name, ug.uid, SUM(
+                CASE
+                    WHEN s.item_score > 0 THEN s.item_score
+                    ELSE
+                        CASE
+                            WHEN i.dtype = 1 THEN 1
+                            WHEN i.dtype = 0 THEN 3
+                            ELSE 0
+                        END
+                END
+            ) as total_score
+            FROM user_gacha ug
+            LEFT JOIN scores s ON ug.item_id = s.item_id
+            LEFT JOIN items i ON ug.item_id = i.id
+            LEFT JOIN users u ON ug.uid = u.uid
+            GROUP BY ug.uid, u.name
+            """
+        )
+        records = cursor.fetchall()
+        conn.close()
+
+        return [
+            {"name": record[0], "uid": record[1], "total_score": record[2]}
+            for record in records
+        ]
 
     def clear_data(self):
         """清空数据库中的数据（开发测试用）"""

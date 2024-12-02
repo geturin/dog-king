@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Login = ({ onLoginSuccess }) => {
   const [username, setUsername] = useState("");
@@ -14,7 +15,7 @@ const Login = ({ onLoginSuccess }) => {
 
       if (data.uid && data.uid !== "0") {
         localStorage.setItem("uid", data.uid);
-        onLoginSuccess && onLoginSuccess(data.uid); // 通知父组件
+        onLoginSuccess && onLoginSuccess(data.uid); // Notify parent component
       } else {
         setError("用户名或密码错误");
       }
@@ -70,6 +71,14 @@ const Login = ({ onLoginSuccess }) => {
           >
             Login
           </button>
+          <Link to="/register">
+            <button
+              type="button"
+              className="w-full bg-gray-500 text-white py-2 rounded mt-3 hover:bg-gray-600 transition duration-200"
+            >
+              注册新用户
+            </button>
+          </Link>
         </form>
       </div>
     </div>
