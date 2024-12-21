@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Bar, Line } from "react-chartjs-2";
+import { Link } from "react-router-dom";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -112,9 +113,15 @@ const Leaderboard = () => {
     return allDates.map((date) => scoreMap[date] || 0);
   });
 
-  const uidToColor = (uid) => {
-    const seed = parseInt(uid, 10) || 0;
-    return `hsl(${(seed * 137.508) % 360}, 70%, 50%)`;
+  const uidToColor = (uid, index) => {
+    const hash = Array.from(uid).reduce(
+      (acc, char) => acc + char.charCodeAt(0),
+      0
+    );
+    const hue = (hash + index * 137) % 360; // 加入索引 `index` 增加差异
+    const saturation = 70; // 固定饱和度
+    const lightness = 50; // 固定亮度
+    return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
   };
 
   const dailyChartData = {
@@ -122,7 +129,7 @@ const Leaderboard = () => {
     datasets: users.map((user, idx) => {
       const userScore = dailyScores.find((score) => score.name === user);
       const userColor = userScore
-        ? uidToColor(userScore.uid)
+        ? uidToColor(userScore.uid, idx)
         : `hsl(${(idx * 360) / users.length}, 70%, 50%)`;
       return {
         label: user,
@@ -186,14 +193,19 @@ const Leaderboard = () => {
       <div className="max-w-lg mx-auto mt-4">
         <ul className="space-y-2">
           {scores.map((user, index) => (
-            <li
-              key={user.uid}
-              className="flex justify-between items-center bg-gray-100 p-2 rounded"
+            <Link
+              to={`/view?uid=${user.uid}`}
+              className="text-gray-500 hover:text-blue-500"
             >
-              <span className="font-bold text-gray-700">{index + 1}</span>
-              <span className="text-gray-700">{user.name}</span>
-              <span className="text-gray-500">{user.total_score} 分</span>
-            </li>
+              <li
+                key={user.uid}
+                className="flex justify-between items-center bg-gray-100 p-2 rounded"
+              >
+                <span className="font-bold text-gray-700">{index + 1}</span>
+                <span className="text-gray-700">{user.name}</span>
+                <span className="text-gray-500">{user.total_score} 分</span>
+              </li>
+            </Link>
           ))}
         </ul>
       </div>

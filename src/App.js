@@ -9,6 +9,7 @@ import Leaderboard from "./item/leaderboard";
 import logo from "./dog.png";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ViewScores from "./ViewScore";
 
 function Home() {
   const [status, setStatus] = useState(null); // 状态：null, "loading", "success", "error"
@@ -87,6 +88,7 @@ function App() {
         <Route path="/Update" element={<LoginAndUpdate />} />
         <Route path="/register" element={<Register />} />
         <Route path="/leaderborad" element={<Leaderboard />} />
+        <Route path="/view" element={<ViewScores />} />
       </Routes>
     </Router>
   );
