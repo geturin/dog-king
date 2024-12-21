@@ -94,7 +94,7 @@ const ViewScores = () => {
       <Row>
         <Col md={12}>
           {Object.entries(data)
-            .filter(([date]) => date < filterDate) // 过滤掉日期 >= filterDate 的数据
+            .filter(([date]) => date <= filterDate) // 过滤掉日期 >= filterDate 的数据
             .map(([date, itemIds]) => renderItemCard(date, itemIds))}
         </Col>
       </Row>
