@@ -8,9 +8,11 @@ const ViewScores = () => {
   const [data, setData] = useState({});
   const [allItems, setAllItems] = useState([]);
   const [isExpanded, setIsExpanded] = useState({});
+  const [filterDate, setFilterDate] = useState(null);
+
+  // 从 URL 查询参数中获取 uid
   const queryParams = new URLSearchParams(location.search);
   const uid = queryParams.get("uid");
-  const dateParam = queryParams.get("date");
 
   // 获取所有道具详细信息
   useEffect(() => {
@@ -18,6 +20,17 @@ const ViewScores = () => {
       .then((response) => response.json())
       .then((data) => setAllItems(data))
       .catch((error) => console.error("Error fetching all items:", error));
+  }, []);
+
+  // 获取管理员时间，设置过滤日期
+  useEffect(() => {
+    fetch("https://api.kero.zone/dogking/getadtimes")
+      .then((response) => response.json())
+      .then((dates) => {
+        const filterDate = dates.find((d) => d.id === 2)?.date;
+        setFilterDate(filterDate);
+      })
+      .catch((error) => console.error("Error fetching admin dates:", error));
   }, []);
 
   // 获取用户得分数据
@@ -62,8 +75,7 @@ const ViewScores = () => {
           </div>
         </button>
         <div style={{ display: isExpanded[date] ? "block" : "none" }}>
-          <ItemCard items={items} onItemClick={() => {}} />{" "}
-          {/* 渲染道具详细信息 */}
+          <ItemCard items={items} onItemClick={() => {}} />
         </div>
       </div>
     );
@@ -73,24 +85,17 @@ const ViewScores = () => {
     return <div>Please provide a valid UID to access this page.</div>;
   }
 
-  if (dateParam) {
-    const itemsForDate = data[dateParam] || "";
-    return (
-      <Container>
-        <Row>
-          <Col md={12}>{renderItemCard(dateParam, itemsForDate)}</Col>
-        </Row>
-      </Container>
-    );
+  if (!filterDate) {
+    return <div>Loading...</div>; // 等待过滤日期加载
   }
 
   return (
     <Container>
       <Row>
         <Col md={12}>
-          {Object.entries(data).map(([date, itemIds]) =>
-            renderItemCard(date, itemIds)
-          )}
+          {Object.entries(data)
+            .filter(([date]) => date < filterDate) // 过滤掉日期 >= filterDate 的数据
+            .map(([date, itemIds]) => renderItemCard(date, itemIds))}
         </Col>
       </Row>
     </Container>

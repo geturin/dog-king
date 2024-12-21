@@ -13,9 +13,25 @@ const Update = ({ uid }) => {
   const [data, setData] = useState({});
   const [selectedKeys, setSelectedKeys] = useState([]);
   const [selectedDate, setSelectedDate] = useState(new Date());
+  const [allowedDate, setAllowedDate] = useState(null); // 存储管理员指定的日期
+
+  // 获取管理员指定日期
+  useEffect(() => {
+    fetch("https://api.kero.zone/dogking/getadtimes")
+      .then((response) => response.json())
+      .then((data) => {
+        // 假设只取第一个日期作为允许日期
+        const foundDate = data.find((item) => item.id === 1);
+        if (foundDate) {
+          setAllowedDate(foundDate.date);
+          console.log("Allowed date from API:", foundDate.date);
+        }
+      })
+      .catch((error) => console.error("Error fetching allowed date:", error));
+  }, []);
 
   useEffect(() => {
-    fetch("https://api.kero.zone/dogking/getAllItems") // 从 API 加载数据
+    fetch("https://api.kero.zone/dogking/getAllItems")
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -34,7 +50,6 @@ const Update = ({ uid }) => {
       .then((response) => response.json())
       .then((data) => {
         setData(data);
-        // 初始化selectedKeys为当天日期的value
         const todayKey = formatDate(new Date());
         setSelectedKeys(data[todayKey] ? data[todayKey].split(",") : []);
       })
@@ -94,17 +109,14 @@ const Update = ({ uid }) => {
 
   const [isExpanded, setIsExpanded] = useState(true);
 
-  // 控制折叠/展开的处理函数
   const toggleExpand = () => {
     setIsExpanded((prevState) => !prevState);
   };
 
-  // 使用 useEffect 来监听 selectedKeys 的变化
   useEffect(() => {
     console.log("Selected Keys Updated:", selectedKeys);
   }, [selectedKeys]);
 
-  // post api 更新分数池
   const handleSubmit = () => {
     const payload = {
       uid: String(uid),
@@ -112,7 +124,6 @@ const Update = ({ uid }) => {
       value: selectedKeys.join(","),
     };
 
-    // 发送数据到API
     fetch("https://api.kero.zone/dogking/updateUserScore/", {
       method: "POST",
       headers: {
@@ -123,12 +134,12 @@ const Update = ({ uid }) => {
       .then((response) => response.json())
       .then((updatedData) => {
         console.log("Success:", updatedData);
-        setData(updatedData); // 使用返回的更新后的数据更新本地状态
+        setData(updatedData);
         setSelectedKeys(
           updatedData[formatDate(selectedDate)]
             ? updatedData[formatDate(selectedDate)].split(",")
             : []
-        ); // 更新selectedKeys以反映当前选中的key对应的最新值
+        );
       })
       .catch((error) => {
         console.error("Error:", error);
@@ -145,6 +156,7 @@ const Update = ({ uid }) => {
   if (!uid) {
     return <div>Please login to access this page.</div>;
   }
+
   return (
     <Container>
       <Row>
@@ -238,7 +250,7 @@ const Update = ({ uid }) => {
               />
             </div>
             <div className="mb-1">
-              {formatDate(selectedDate) === formatDate(new Date()) ? (
+              {formatDate(selectedDate) === allowedDate ? (
                 <Button onClick={handleSubmit} className="mt-1">
                   提交数据
                 </Button>

@@ -10,6 +10,7 @@ import logo from "./dog.png";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ViewScores from "./ViewScore";
+import DateManager from "./DateManager";
 
 function Home() {
   const [status, setStatus] = useState(null); // 状态：null, "loading", "success", "error"
@@ -47,9 +48,9 @@ function Home() {
         <a className="App-link" href="/Update" rel="noopener noreferrer">
           报分
         </a>
-        <a className="App-link" href="/item_score" rel="noopener noreferrer">
+        {/* <a className="App-link" href="/item_score" rel="noopener noreferrer">
           计分表管理
-        </a>
+        </a> */}
         <a className="App-link" href="#" onClick={handleUpdateItems}>
           从GameWith获取最新数据
         </a>
@@ -89,6 +90,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/leaderborad" element={<Leaderboard />} />
         <Route path="/view" element={<ViewScores />} />
+        <Route path="/date" element={<DateManager />} />
       </Routes>
     </Router>
   );
