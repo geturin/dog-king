@@ -14,6 +14,11 @@ const Update = ({ uid }) => {
   const [selectedKeys, setSelectedKeys] = useState([]);
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [allowedDate, setAllowedDate] = useState(null); // 存储管理员指定的日期
+  const [isCustomItemChecked, setIsCustomItemChecked] = useState(false);
+
+  const handleCustomItemChange = (event) => {
+    setIsCustomItemChecked(event.target.checked);
+  };
 
   // 获取管理员指定日期
   useEffect(() => {
@@ -57,14 +62,18 @@ const Update = ({ uid }) => {
   }, []);
 
   useEffect(() => {
-    const filtered = allItems.filter(
-      (item) =>
+    const filtered = allItems.filter((item) => {
+      if (isCustomItemChecked) {
+        return item.dtype === 2; // 筛选出 dtype 为 2 的项目
+      }
+      return (
         (selectedZo.size === 0 || selectedZo.has(`zo${item.details.zo}`)) &&
         (selectedBu.size === 0 || selectedBu.has(`bu${item.details.bu}`)) &&
         (selectedGet.size === 0 || selectedGet.has(`get${item.details.get}`))
-    );
+      );
+    });
     setFilteredItems(filtered);
-  }, [selectedZo, selectedBu, selectedGet, allItems]);
+  }, [selectedZo, selectedBu, selectedGet, isCustomItemChecked, allItems]);
 
   const handleZoChange = (event) => {
     const value = event.target.value;
@@ -215,6 +224,17 @@ const Update = ({ uid }) => {
                     key={index}
                   />
                 ))}
+              </div>
+              <div>
+                <strong>自定义项目:</strong>{" "}
+                <Form.Check
+                  inline
+                  label=""
+                  type="checkbox"
+                  id="customItem"
+                  value="customItem"
+                  onChange={handleCustomItemChange}
+                />
               </div>
             </div>
           </Form>

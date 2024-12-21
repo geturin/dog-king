@@ -11,6 +11,11 @@ const Update = () => {
   const [data, setData] = useState({});
   const [selectedKeys, setSelectedKeys] = useState([]);
   const [selectedKey, setSelectedKey] = useState("15");
+  const [isCustomItemChecked, setIsCustomItemChecked] = useState(false);
+
+  const handleCustomItemChange = (event) => {
+    setIsCustomItemChecked(event.target.checked);
+  };
 
   useEffect(() => {
     fetch("https://api.kero.zone/dogking/getAllItems") // 从 API 加载数据
@@ -39,14 +44,18 @@ const Update = () => {
   }, []);
 
   useEffect(() => {
-    const filtered = allItems.filter(
-      (item) =>
+    const filtered = allItems.filter((item) => {
+      if (isCustomItemChecked) {
+        return item.dtype === 2; // 筛选出 dtype 为 2 的项目
+      }
+      return (
         (selectedZo.size === 0 || selectedZo.has(`zo${item.details.zo}`)) &&
         (selectedBu.size === 0 || selectedBu.has(`bu${item.details.bu}`)) &&
         (selectedGet.size === 0 || selectedGet.has(`get${item.details.get}`))
-    );
+      );
+    });
     setFilteredItems(filtered);
-  }, [selectedZo, selectedBu, selectedGet, allItems]);
+  }, [selectedZo, selectedBu, selectedGet, isCustomItemChecked, allItems]);
 
   const handleZoChange = (event) => {
     const value = event.target.value;
@@ -180,6 +189,17 @@ const Update = () => {
                     key={index}
                   />
                 ))}
+              </div>
+              <div>
+                <strong>自定义项目:</strong>{" "}
+                <Form.Check
+                  inline
+                  label=""
+                  type="checkbox"
+                  id="customItem"
+                  value="customItem"
+                  onChange={handleCustomItemChange}
+                />
               </div>
             </div>
           </Form>
