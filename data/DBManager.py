@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from collections import defaultdict
+from datetime import datetime, timedelta
 
 
 class DBManager:
@@ -361,6 +362,64 @@ class DBManager:
             {"name": record[0], "uid": record[1], "total_score": record[2]}
             for record in records
         ]
+
+    def fetch_user_daily_scores(self):
+        """查询所有用户的每日得分情况，包括缺失日期得分设为0"""
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+
+        # 获取所有用户
+        cursor.execute("SELECT uid, name FROM users")
+        users = cursor.fetchall()
+
+        # 获取日期范围
+        cursor.execute("SELECT MIN(date) FROM user_gacha")
+        start_date = cursor.fetchone()[0]
+        start_date = (
+            datetime.strptime(start_date, "%Y-%m-%d")
+            if start_date
+            else datetime.today()
+        )
+        end_date = datetime.today()
+
+        # 初始化结果
+        result = []
+
+        # 遍历每一天
+        current_date = start_date
+        while current_date <= end_date:
+            date_str = current_date.strftime("%Y-%m-%d")
+
+            for uid, name in users:
+                cursor.execute(
+                    """
+                    SELECT SUM(
+                        CASE
+                            WHEN s.item_score > 0 THEN s.item_score
+                            ELSE
+                                CASE
+                                    WHEN i.dtype = 1 THEN 1
+                                    WHEN i.dtype = 0 THEN 3
+                                    ELSE 0
+                                END
+                        END
+                    ) as daily_score
+                    FROM user_gacha ug
+                    LEFT JOIN scores s ON ug.item_id = s.item_id
+                    LEFT JOIN items i ON ug.item_id = i.id
+                    WHERE ug.uid = ? AND ug.date = ?
+                    """,
+                    (uid, date_str),
+                )
+                score = cursor.fetchone()[0] or 0
+                result.append(
+                    {"name": name, "uid": uid, "date": date_str, "daily_score": score}
+                )
+
+            current_date += timedelta(days=1)
+
+        conn.close()
+        return result
 
     def clear_data(self):
         """清空数据库中的数据（开发测试用）"""

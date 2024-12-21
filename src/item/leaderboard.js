@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { Bar } from "react-chartjs-2";
+import { Bar, Line } from "react-chartjs-2";
 import {
   Chart as ChartJS,
   CategoryScale,
   LinearScale,
   BarElement,
+  LineElement,
+  PointElement,
   Title,
   Tooltip,
   Legend,
@@ -15,6 +17,8 @@ ChartJS.register(
   CategoryScale,
   LinearScale,
   BarElement,
+  LineElement,
+  PointElement,
   Title,
   Tooltip,
   Legend
@@ -22,6 +26,7 @@ ChartJS.register(
 
 const Leaderboard = () => {
   const [scores, setScores] = useState([]);
+  const [dailyScores, setDailyScores] = useState([]);
 
   useEffect(() => {
     // 获取总积分数据
@@ -33,9 +38,29 @@ const Leaderboard = () => {
         setScores(sortedScores);
       })
       .catch((error) => console.error("Error fetching scores:", error));
+
+    // 获取日常积分数据
+    fetch("https://api.kero.zone/dogking/allDaliyScores/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: "",
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((data) => {
+        setDailyScores(data);
+      })
+      .catch((error) => console.error("Error fetching daily scores:", error));
   }, []);
 
-  // 准备 Chart.js 数据
+  // 准备总积分 Chart.js 数据
   const chartData = {
     labels: scores.map((user) => user.name),
     datasets: [
@@ -64,28 +89,114 @@ const Leaderboard = () => {
     },
   };
 
+  // 准备日常积分 Chart.js 数据
+  const users = Array.from(new Set(dailyScores.map((score) => score.name)));
+  const allDates = (() => {
+    const dateSet = new Set(dailyScores.map((score) => score.date));
+    const startDate = new Date(
+      Math.min(...Array.from(dateSet).map((date) => new Date(date)))
+    );
+    const endDate = new Date();
+    const dates = [];
+    for (let d = startDate; d <= endDate; d.setDate(d.getDate() + 1)) {
+      dates.push(d.toISOString().split("T")[0]);
+    }
+    return dates;
+  })();
+
+  const dailyScoresByUser = users.map((user) => {
+    const userScores = dailyScores.filter((score) => score.name === user);
+    const scoreMap = Object.fromEntries(
+      userScores.map((score) => [score.date, score.daily_score])
+    );
+    return allDates.map((date) => scoreMap[date] || 0);
+  });
+
+  const uidToColor = (uid) => {
+    const seed = parseInt(uid, 10) || 0;
+    return `hsl(${(seed * 137.508) % 360}, 70%, 50%)`;
+  };
+
+  const dailyChartData = {
+    labels: allDates,
+    datasets: users.map((user, idx) => {
+      const userScore = dailyScores.find((score) => score.name === user);
+      const userColor = userScore
+        ? uidToColor(userScore.uid)
+        : `hsl(${(idx * 360) / users.length}, 70%, 50%)`;
+      return {
+        label: user,
+        data: dailyScoresByUser[idx],
+        fill: false,
+        borderColor: userColor,
+        backgroundColor: userColor,
+        tension: 0.1,
+      };
+    }),
+  };
+
+  const lineOptions = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        display: true,
+        position: "top",
+      },
+    },
+    scales: {
+      x: {
+        title: {
+          display: true,
+          text: "日期",
+        },
+      },
+      y: {
+        title: {
+          display: true,
+          text: "日常积分",
+        },
+      },
+    },
+  };
+
   return (
-    <div className="p-4 max-w-lg mx-auto">
-      <h2 className="text-2xl font-bold mb-4 text-center">总分排行榜</h2>
-      <div className="bg-white p-4 rounded shadow">
-        {scores.length > 0 ? (
-          <Bar data={chartData} options={options} />
+    <div className="p-4 max-w-full mx-auto">
+      <div
+        className="bg-white p-4 rounded shadow mb-8"
+        style={{ height: "500px" }}
+      >
+        <h3 className="text-xl font-bold mb-4 text-center">日常积分曲线图</h3>
+        {dailyScores.length > 0 ? (
+          <Line data={dailyChartData} options={lineOptions} />
         ) : (
           <p className="text-gray-500 text-center">加载中...</p>
         )}
       </div>
-      <ul className="mt-4 space-y-2">
-        {scores.map((user, index) => (
-          <li
-            key={user.uid}
-            className="flex justify-between items-center bg-gray-100 p-2 rounded"
-          >
-            <span className="font-bold text-gray-700">{index + 1}</span>
-            <span className="text-gray-700">{user.name}</span>
-            <span className="text-gray-500">{user.total_score} 分</span>
-          </li>
-        ))}
-      </ul>
+      <div className="max-w-lg mx-auto">
+        <h2 className="text-2xl font-bold mb-4 text-center">总分排行榜</h2>
+        <div className="bg-white p-4 rounded shadow">
+          {scores.length > 0 ? (
+            <Bar data={chartData} options={options} />
+          ) : (
+            <p className="text-gray-500 text-center">加载中...</p>
+          )}
+        </div>
+      </div>
+      <div className="max-w-lg mx-auto mt-4">
+        <ul className="space-y-2">
+          {scores.map((user, index) => (
+            <li
+              key={user.uid}
+              className="flex justify-between items-center bg-gray-100 p-2 rounded"
+            >
+              <span className="font-bold text-gray-700">{index + 1}</span>
+              <span className="text-gray-700">{user.name}</span>
+              <span className="text-gray-500">{user.total_score} 分</span>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
