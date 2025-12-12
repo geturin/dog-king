@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Bar, Line } from "react-chartjs-2";
 import { Link } from "react-router-dom";
 import {
@@ -28,6 +28,11 @@ ChartJS.register(
 const Leaderboard = () => {
   const [scores, setScores] = useState([]);
   const [dailyScores, setDailyScores] = useState([]);
+  const [allItems, setAllItems] = useState([]);
+  const [userDailyItems, setUserDailyItems] = useState({});
+  const [filterDate, setFilterDate] = useState(null);
+  const lineTooltipRef = useRef(null);
+  const barTooltipRef = useRef(null);
 
   useEffect(() => {
     // 获取总积分数据
@@ -61,6 +66,105 @@ const Leaderboard = () => {
       .catch((error) => console.error("Error fetching daily scores:", error));
   }, []);
 
+  const itemMap = useMemo(() => {
+    return allItems.reduce((acc, item) => {
+      acc[item.id] = item;
+      return acc;
+    }, {});
+  }, [allItems]);
+
+  useEffect(() => {
+    if (!dailyScores.length || !Object.keys(itemMap).length) return;
+    const uniqueUids = Array.from(
+      new Set(dailyScores.map((score) => score.uid))
+    );
+    const pendingUids = uniqueUids.filter((uid) => !userDailyItems[uid]);
+    if (!pendingUids.length) return;
+
+    Promise.all(
+      pendingUids.map((uid) =>
+        fetch(
+          `https://api.kero.zone/dogking/getuUserScoreGroupByDate?uid=${uid}`
+        )
+          .then((response) => response.json())
+          .then((data) => ({ uid, data }))
+          .catch((error) => {
+            console.error(`Error fetching user daily items for ${uid}:`, error);
+            return { uid, data: null };
+          })
+      )
+    ).then((results) => {
+      setUserDailyItems((prev) => {
+        const updated = { ...prev };
+        results.forEach(({ uid, data }) => {
+          if (!data) return;
+          updated[uid] = Object.entries(data).reduce((acc, [date, itemIds]) => {
+            if (!itemIds) {
+              acc[date] = [];
+              return acc;
+            }
+            const items = itemIds
+              .split(",")
+              .map((id) => itemMap[id.trim()])
+              .filter(Boolean);
+            acc[date] = items;
+            return acc;
+          }, {});
+        });
+        return updated;
+      });
+    });
+  }, [dailyScores, itemMap, userDailyItems]);
+
+  const aggregatedUserItems = useMemo(() => {
+    return Object.entries(userDailyItems).reduce((acc, [uid, dateMap]) => {
+      const seen = new Set();
+      const items = [];
+      Object.entries(dateMap || {}).forEach(([date, itemList = []]) => {
+        if (filterDate && date > filterDate) {
+          return;
+        }
+        itemList.forEach((item) => {
+          if (!item || seen.has(item.id)) return;
+          seen.add(item.id);
+          items.push(item);
+        });
+      });
+      acc[uid] = items;
+      return acc;
+    }, {});
+  }, [userDailyItems, filterDate]);
+
+  useEffect(() => {
+    return () => {
+      if (lineTooltipRef.current) {
+        lineTooltipRef.current.remove();
+        lineTooltipRef.current = null;
+      }
+      if (barTooltipRef.current) {
+        barTooltipRef.current.remove();
+        barTooltipRef.current = null;
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    fetch("https://api.kero.zone/dogking/getAllItems")
+      .then((response) => response.json())
+      .then((data) => setAllItems(data))
+      .catch((error) => console.error("Error fetching all items:", error));
+  }, []);
+
+  useEffect(() => {
+    fetch("https://api.kero.zone/dogking/getadtimes")
+      .then((response) => response.json())
+      .then((dates) => {
+        const adminDate = dates.find((d) => d.id === 2)?.date || null;
+        setFilterDate(adminDate);
+      })
+      .catch((error) => console.error("Error fetching admin dates:", error));
+  }, []);
+
   // 准备总积分 Chart.js 数据
   const chartData = {
     labels: scores.map((user) => user.name),
@@ -75,23 +179,104 @@ const Leaderboard = () => {
     ],
   };
 
-  const options = {
-    indexAxis: "y", // 横向柱状图
-    responsive: true,
-    plugins: {
-      legend: {
-        display: false,
-      },
-      tooltip: {
-        callbacks: {
-          label: (context) => `${context.raw} 分`,
+  const barOptions = useMemo(() => {
+    const externalTooltipHandler = (context) => {
+      const { chart, tooltip } = context;
+      let tooltipEl = barTooltipRef.current;
+
+      if (!tooltipEl) {
+        tooltipEl = document.createElement("div");
+        tooltipEl.style.background = "rgba(17, 24, 39, 0.85)";
+        tooltipEl.style.borderRadius = "8px";
+        tooltipEl.style.color = "#fff";
+        tooltipEl.style.pointerEvents = "none";
+        tooltipEl.style.padding = "8px";
+        tooltipEl.style.position = "absolute";
+        tooltipEl.style.transform = "translate(-50%, 12px)";
+        tooltipEl.style.zIndex = "1000";
+        tooltipEl.style.minWidth = "180px";
+        chart.canvas.parentNode.appendChild(tooltipEl);
+        barTooltipRef.current = tooltipEl;
+      }
+
+      if (tooltip.opacity === 0) {
+        tooltipEl.style.opacity = 0;
+        return;
+      }
+
+      if (tooltip.body?.length) {
+        const dataPoint = tooltip.dataPoints[0];
+        const user = scores[dataPoint.dataIndex];
+        const items = aggregatedUserItems[user?.uid] || [];
+        tooltipEl.innerHTML = "";
+
+        const title = document.createElement("div");
+        title.style.fontWeight = "600";
+        title.style.marginBottom = "4px";
+        title.textContent = `${user?.name ?? ""}`;
+        tooltipEl.appendChild(title);
+
+        const scoreLine = document.createElement("div");
+        scoreLine.style.marginBottom = "4px";
+        scoreLine.textContent = `总分：${user?.total_score ?? 0}`;
+        tooltipEl.appendChild(scoreLine);
+
+        if (items.length) {
+          const itemsWrap = document.createElement("div");
+          itemsWrap.style.display = "flex";
+          itemsWrap.style.flexWrap = "wrap";
+          itemsWrap.style.maxWidth = "260px";
+          items.forEach((item) => {
+            const img = document.createElement("img");
+            img.src = item.img;
+            img.alt = item.name;
+            img.title = item.name;
+            img.style.width = "40px";
+            img.style.height = "40px";
+            img.style.objectFit = "cover";
+            img.style.borderRadius = "4px";
+            img.style.margin = "2px";
+            itemsWrap.appendChild(img);
+          });
+          tooltipEl.appendChild(itemsWrap);
+        } else {
+          const empty = document.createElement("div");
+          empty.style.color = "#d1d5db";
+          empty.textContent = "暂无道具记录";
+          tooltipEl.appendChild(empty);
+        }
+      }
+
+      const { top, left } = chart.canvas.getBoundingClientRect();
+      tooltipEl.style.opacity = 1;
+      tooltipEl.style.left = `${left + window.pageXOffset + tooltip.caretX}px`;
+      tooltipEl.style.top = `${top + window.pageYOffset + tooltip.caretY}px`;
+    };
+
+    return {
+      indexAxis: "y",
+      responsive: true,
+      plugins: {
+        legend: {
+          display: false,
+        },
+        tooltip: {
+          enabled: false,
+          external: externalTooltipHandler,
         },
       },
-    },
-  };
+    };
+  }, [scores, aggregatedUserItems]);
 
   // 准备日常积分 Chart.js 数据
-  const users = Array.from(new Set(dailyScores.map((score) => score.name)));
+  const userEntries = Array.from(
+    new Map(
+      dailyScores.map((score) => [
+        score.uid,
+        { uid: score.uid, name: score.name },
+      ])
+    ).values()
+  );
   const allDates = (() => {
     if (dailyScores.length === 0) return [];
     const sortedDates = Array.from(
@@ -108,8 +293,8 @@ const Leaderboard = () => {
     return dates;
   })();
 
-  const dailyScoresByUser = users.map((user) => {
-    const userScores = dailyScores.filter((score) => score.name === user);
+  const dailyScoresByUser = userEntries.map((user) => {
+    const userScores = dailyScores.filter((score) => score.uid === user.uid);
     const scoreMap = Object.fromEntries(
       userScores.map((score) => [score.date, score.daily_score])
     );
@@ -133,13 +318,15 @@ const Leaderboard = () => {
 
   const dailyChartData = {
     labels: allDates,
-    datasets: users.map((user, idx) => {
-      const userScore = dailyScores.find((score) => score.name === user);
+    datasets: userEntries.map((user, idx) => {
+      const userScore = dailyScores.find((score) => score.uid === user.uid);
       const userColor = userScore
         ? uidToColor(userScore.uid, idx)
-        : `hsl(${(idx * 360) / users.length}, 70%, 50%)`;
+        : `hsl(${
+            userEntries.length ? (idx * 360) / userEntries.length : 0
+          }, 70%, 50%)`;
       return {
-        label: user,
+        label: user.name,
         data: dailyScoresByUser[idx],
         fill: false,
         borderColor: userColor,
@@ -149,30 +336,128 @@ const Leaderboard = () => {
     }),
   };
 
-  const lineOptions = {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: {
-        display: true,
-        position: "top",
-      },
-    },
-    scales: {
-      x: {
-        title: {
+  const lineOptions = useMemo(() => {
+    const externalTooltipHandler = (context) => {
+      const { chart, tooltip } = context;
+      let tooltipEl = lineTooltipRef.current;
+
+      if (!tooltipEl) {
+        tooltipEl = document.createElement("div");
+        tooltipEl.style.background = "rgba(17, 24, 39, 0.85)";
+        tooltipEl.style.borderRadius = "8px";
+        tooltipEl.style.color = "#fff";
+        tooltipEl.style.pointerEvents = "none";
+        tooltipEl.style.padding = "8px";
+        tooltipEl.style.position = "absolute";
+        tooltipEl.style.transform = "translate(-50%, 12px)";
+        tooltipEl.style.zIndex = "1000";
+        tooltipEl.style.minWidth = "180px";
+        chart.canvas.parentNode.appendChild(tooltipEl);
+        lineTooltipRef.current = tooltipEl;
+      }
+
+      if (tooltip.opacity === 0) {
+        tooltipEl.style.opacity = 0;
+        return;
+      }
+
+      if (tooltip.body?.length) {
+        const dataPoints = tooltip.dataPoints || [];
+        if (!dataPoints.length) {
+          tooltipEl.style.opacity = 0;
+          return;
+        }
+        const date = allDates[dataPoints[0].dataIndex];
+        tooltipEl.innerHTML = "";
+
+        const dateTitle = document.createElement("div");
+        dateTitle.style.fontWeight = "600";
+        dateTitle.style.marginBottom = "6px";
+        dateTitle.textContent = `${date}`;
+        tooltipEl.appendChild(dateTitle);
+
+        dataPoints.forEach((dataPoint, idx) => {
+          const user = userEntries[dataPoint.datasetIndex];
+          const cumulativeScore = dataPoint.raw;
+          const items =
+            (user &&
+              userDailyItems[user.uid] &&
+              userDailyItems[user.uid][date]) ||
+            [];
+
+          const section = document.createElement("div");
+          section.style.marginBottom = idx === dataPoints.length - 1 ? "0" : "8px";
+
+          const title = document.createElement("div");
+          title.style.fontWeight = "500";
+          title.style.marginBottom = "4px";
+          title.textContent = `${user?.name ?? ""}：${cumulativeScore} 分`;
+          section.appendChild(title);
+
+          if (items.length) {
+            const itemsWrap = document.createElement("div");
+            itemsWrap.style.display = "flex";
+            itemsWrap.style.flexWrap = "wrap";
+            itemsWrap.style.maxWidth = "260px";
+            items.forEach((item) => {
+              const img = document.createElement("img");
+              img.src = item.img;
+              img.alt = item.name;
+              img.title = item.name;
+              img.style.width = "40px";
+              img.style.height = "40px";
+              img.style.objectFit = "cover";
+              img.style.borderRadius = "4px";
+              img.style.margin = "2px";
+              itemsWrap.appendChild(img);
+            });
+            section.appendChild(itemsWrap);
+          } else {
+            const empty = document.createElement("div");
+            empty.style.color = "#d1d5db";
+            empty.textContent = "该日无道具记录";
+            section.appendChild(empty);
+          }
+
+          tooltipEl.appendChild(section);
+        });
+      }
+
+      const { top, left } = chart.canvas.getBoundingClientRect();
+        tooltipEl.style.opacity = 1;
+      tooltipEl.style.left = `${left + window.pageXOffset + tooltip.caretX}px`;
+      tooltipEl.style.top = `${top + window.pageYOffset + tooltip.caretY}px`;
+    };
+
+    return {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
           display: true,
-          text: "日期",
+          position: "top",
+        },
+        tooltip: {
+          enabled: false,
+          external: externalTooltipHandler,
         },
       },
-      y: {
-        title: {
-          display: true,
-          text: "累积积分",
+      scales: {
+        x: {
+          title: {
+            display: true,
+            text: "日期",
+          },
+        },
+        y: {
+          title: {
+            display: true,
+            text: "累积积分",
+          },
         },
       },
-    },
-  };
+    };
+  }, [allDates, userEntries, userDailyItems]);
 
   return (
     <div className="p-4 w-full">
@@ -190,7 +475,7 @@ const Leaderboard = () => {
             <h2 className="text-2xl font-bold mb-4 text-center">总分排行榜</h2>
             <div className="bg-white rounded">
               {scores.length > 0 ? (
-                <Bar data={chartData} options={options} />
+                <Bar data={chartData} options={barOptions} />
               ) : (
                 <p className="text-gray-500 text-center">加载中...</p>
               )}
