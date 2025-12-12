@@ -93,14 +93,17 @@ const Leaderboard = () => {
   // 准备日常积分 Chart.js 数据
   const users = Array.from(new Set(dailyScores.map((score) => score.name)));
   const allDates = (() => {
-    const dateSet = new Set(dailyScores.map((score) => score.date));
-    const startDate = new Date(
-      Math.min(...Array.from(dateSet).map((date) => new Date(date)))
-    );
-    const endDate = new Date();
+    if (dailyScores.length === 0) return [];
+    const sortedDates = Array.from(
+      new Set(dailyScores.map((score) => score.date))
+    ).sort((a, b) => new Date(a) - new Date(b));
+    const startDate = new Date(sortedDates[0]);
+    const endDate = new Date(sortedDates[sortedDates.length - 1]);
     const dates = [];
-    for (let d = startDate; d <= endDate; d.setDate(d.getDate() + 1)) {
-      dates.push(d.toISOString().split("T")[0]);
+    const cursor = new Date(startDate);
+    while (cursor <= endDate) {
+      dates.push(cursor.toISOString().split("T")[0]);
+      cursor.setDate(cursor.getDate() + 1);
     }
     return dates;
   })();
@@ -110,7 +113,11 @@ const Leaderboard = () => {
     const scoreMap = Object.fromEntries(
       userScores.map((score) => [score.date, score.daily_score])
     );
-    return allDates.map((date) => scoreMap[date] || 0);
+    let cumulative = 0;
+    return allDates.map((date) => {
+      cumulative += scoreMap[date] || 0;
+      return cumulative;
+    });
   });
 
   const uidToColor = (uid, index) => {
@@ -161,53 +168,55 @@ const Leaderboard = () => {
       y: {
         title: {
           display: true,
-          text: "日常积分",
+          text: "累积积分",
         },
       },
     },
   };
 
   return (
-    <div className="p-4 max-w-full mx-auto">
-      <div
-        className="bg-white p-4 rounded shadow mb-8"
-        style={{ height: "500px" }}
-      >
-        <h3 className="text-xl font-bold mb-4 text-center">日常积分曲线图</h3>
-        {dailyScores.length > 0 ? (
-          <Line data={dailyChartData} options={lineOptions} />
-        ) : (
-          <p className="text-gray-500 text-center">加载中...</p>
-        )}
-      </div>
-      <div className="max-w-lg mx-auto">
-        <h2 className="text-2xl font-bold mb-4 text-center">总分排行榜</h2>
-        <div className="bg-white p-4 rounded shadow">
-          {scores.length > 0 ? (
-            <Bar data={chartData} options={options} />
-          ) : (
-            <p className="text-gray-500 text-center">加载中...</p>
-          )}
+    <div className="p-4 w-full">
+      <div className="grid gap-6 lg:grid-cols-[2fr_1fr]">
+        <div className="space-y-6">
+          <div className="bg-white p-4 rounded shadow" style={{ height: "500px" }}>
+            <h3 className="text-xl font-bold mb-4 text-center">累积总分曲线图</h3>
+            {dailyScores.length > 0 ? (
+              <Line data={dailyChartData} options={lineOptions} />
+            ) : (
+              <p className="text-gray-500 text-center">加载中...</p>
+            )}
+          </div>
+          <div className="bg-white p-4 rounded shadow">
+            <h2 className="text-2xl font-bold mb-4 text-center">总分排行榜</h2>
+            <div className="bg-white rounded">
+              {scores.length > 0 ? (
+                <Bar data={chartData} options={options} />
+              ) : (
+                <p className="text-gray-500 text-center">加载中...</p>
+              )}
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="max-w-lg mx-auto mt-4">
-        <ul className="space-y-2">
-          {scores.map((user, index) => (
-            <Link
-              to={`/view?uid=${user.uid}`}
-              className="text-gray-500 hover:text-blue-500"
-            >
+        <div className="bg-white p-4 rounded shadow">
+          <h2 className="text-2xl font-bold mb-4 text-center">个人列表</h2>
+          <ul className="space-y-2">
+            {scores.map((user, index) => (
               <li
                 key={user.uid}
                 className="flex justify-between items-center bg-gray-100 p-2 rounded"
               >
-                <span className="font-bold text-gray-700">{index + 1}</span>
-                <span className="text-gray-700">{user.name}</span>
-                <span className="text-gray-500">{user.total_score} 分</span>
+                <Link
+                  to={`/view?uid=${user.uid}`}
+                  className="flex w-full justify-between text-gray-500 hover:text-blue-500"
+                >
+                  <span className="font-bold text-gray-700">{index + 1}</span>
+                  <span className="text-gray-700">{user.name}</span>
+                  <span className="text-gray-500">{user.total_score} 分</span>
+                </Link>
               </li>
-            </Link>
-          ))}
-        </ul>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );
