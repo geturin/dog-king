@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Spinner, Alert } from "react-bootstrap";
-import Update from "./Update";
 import ItemSCore from "./ItemSCore";
 import LoginAndUpdate from "./LoginAndUpdate";
 import Register from "./item/register";
 import Leaderboard from "./item/leaderboard";
 import logo from "./dog.png";
+import Squares from "./components/Squares";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ViewScores from "./ViewScore";
@@ -42,40 +42,54 @@ function Home() {
   };
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a className="App-link" href="/Update" rel="noopener noreferrer">
-          报分
-        </a>
-        {/* <a className="App-link" href="/item_score" rel="noopener noreferrer">
-          计分表管理
-        </a> */}
-        <a className="App-link" href="#" onClick={handleUpdateItems}>
-          从GameWith获取最新数据
-        </a>
+    <div className="home-background">
+      <Squares
+        speed={0.5}
+        squareSize={40}
+        direction="diagonal"
+        borderColor="rgba(255,255,255,0.25)"
+        hoverFillColor="rgba(255,255,255,0.15)"
+      />
+      <div className="home-content">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <a className="App-link" href="/Update" rel="noopener noreferrer">
+            报分
+          </a>
+          <button
+            type="button"
+            className="App-link app-link-btn"
+            onClick={handleUpdateItems}
+          >
+            从GameWith获取最新数据
+          </button>
 
-        {status === "loading" && (
-          <div className="mt-3">
-            <Spinner animation="border" role="status">
-              <span className="visually-hidden">Loading...</span>
-            </Spinner>
-          </div>
-        )}
-        {status === "success" && (
-          <Alert variant="success" className="mt-3">
-            更新完毕！
-          </Alert>
-        )}
-        {status === "error" && (
-          <Alert variant="danger" className="mt-3">
-            更新失败，请稍后再试。
-          </Alert>
-        )}
-        <a className="App-link" href="/leaderborad" rel="noopener noreferrer">
-          总分排行榜
-        </a>
-      </header>
+          {status === "loading" && (
+            <div className="mt-3">
+              <Spinner animation="border" role="status">
+                <span className="visually-hidden">Loading...</span>
+              </Spinner>
+            </div>
+          )}
+          {status === "success" && (
+            <Alert variant="success" className="mt-3">
+              更新完毕！
+            </Alert>
+          )}
+          {status === "error" && (
+            <Alert variant="danger" className="mt-3">
+              更新失败，请稍后再试。
+            </Alert>
+          )}
+          <a
+            className="App-link"
+            href="/leaderborad"
+            rel="noopener noreferrer"
+          >
+            总分排行榜
+          </a>
+        </header>
+      </div>
     </div>
   );
 }
