@@ -14,8 +14,8 @@ const Login = ({ onLoginSuccess }) => {
       const data = await response.json();
 
       if (data.uid && data.uid !== "0") {
-        localStorage.setItem("uid", data.uid);
-        onLoginSuccess && onLoginSuccess(data.uid); // Notify parent component
+        onLoginSuccess &&
+          onLoginSuccess(data.uid, { username, password }); // Notify parent component with credentials
       } else {
         setError("用户名或密码错误");
       }
