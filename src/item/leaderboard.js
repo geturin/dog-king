@@ -12,6 +12,8 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
+import Squares from "../components/Squares";
+import ElectricBorder from "../components/ElectricBorder";
 
 // 注册 Chart.js 组件
 ChartJS.register(
@@ -195,7 +197,7 @@ const Leaderboard = () => {
         tooltipEl.style.transform = "translate(-50%, 12px)";
         tooltipEl.style.zIndex = "1000";
         tooltipEl.style.minWidth = "180px";
-        chart.canvas.parentNode.appendChild(tooltipEl);
+        document.body.appendChild(tooltipEl);
         barTooltipRef.current = tooltipEl;
       }
 
@@ -352,7 +354,7 @@ const Leaderboard = () => {
         tooltipEl.style.transform = "translate(-50%, 12px)";
         tooltipEl.style.zIndex = "1000";
         tooltipEl.style.minWidth = "180px";
-        chart.canvas.parentNode.appendChild(tooltipEl);
+        document.body.appendChild(tooltipEl);
         lineTooltipRef.current = tooltipEl;
       }
 
@@ -460,47 +462,90 @@ const Leaderboard = () => {
   }, [allDates, userEntries, userDailyItems]);
 
   return (
-    <div className="p-4 w-full">
-      <div className="grid gap-6 lg:grid-cols-[2fr_1fr]">
-        <div className="space-y-6">
-          <div className="bg-white p-4 rounded shadow" style={{ height: "500px" }}>
-            <h3 className="text-xl font-bold mb-4 text-center">累积总分曲线图</h3>
-            {dailyScores.length > 0 ? (
-              <Line data={dailyChartData} options={lineOptions} />
-            ) : (
-              <p className="text-gray-500 text-center">加载中...</p>
-            )}
-          </div>
-          <div className="bg-white p-4 rounded shadow">
-            <h2 className="text-2xl font-bold mb-4 text-center">总分排行榜</h2>
-            <div className="bg-white rounded">
-              {scores.length > 0 ? (
-                <Bar data={chartData} options={barOptions} />
-              ) : (
-                <p className="text-gray-500 text-center">加载中...</p>
-              )}
-            </div>
-          </div>
-        </div>
-        <div className="bg-white p-4 rounded shadow">
-          <h2 className="text-2xl font-bold mb-4 text-center">个人列表</h2>
-          <ul className="space-y-2">
-            {scores.map((user, index) => (
-              <li
-                key={user.uid}
-                className="flex justify-between items-center bg-gray-100 p-2 rounded"
+    <div className="page-background leaderboard-background">
+      <Squares
+        className="page-squares"
+        speed={0.5}
+        squareSize={40}
+        direction="diagonal"
+        borderColor="rgba(255,255,255,0.2)"
+        hoverFillColor="rgba(255,255,255,0.2)"
+      />
+      <div className="page-content">
+        <div className="leaderboard-wrapper">
+          <div className="leaderboard-grid">
+            <div className="leaderboard-main">
+              <ElectricBorder
+                color="#7df9ff"
+                speed={1}
+                chaos={0.5}
+                thickness={2}
+                style={{ borderRadius: 20 }}
               >
-                <Link
-                  to={`/view?uid=${user.uid}`}
-                  className="flex w-full justify-between text-gray-500 hover:text-blue-500"
-                >
-                  <span className="font-bold text-gray-700">{index + 1}</span>
-                  <span className="text-gray-700">{user.name}</span>
-                  <span className="text-gray-500">{user.total_score} 分</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
+                <div className="leaderboard-card leaderboard-chart-card">
+                  <h3 className="leaderboard-card__title">累积总分曲线图</h3>
+                  <div className="leaderboard-chart">
+                    {dailyScores.length > 0 ? (
+                      <Line data={dailyChartData} options={lineOptions} />
+                    ) : (
+                      <p className="leaderboard-card__muted">加载中...</p>
+                    )}
+                  </div>
+                </div>
+              </ElectricBorder>
+
+              <ElectricBorder
+                color="#7df9ff"
+                speed={1}
+                chaos={0.5}
+                thickness={2}
+                style={{ borderRadius: 20 }}
+              >
+                <div className="leaderboard-card">
+                  <h2 className="leaderboard-card__title">总分排行榜</h2>
+                  <div className="leaderboard-chart">
+                    {scores.length > 0 ? (
+                      <Bar data={chartData} options={barOptions} />
+                    ) : (
+                      <p className="leaderboard-card__muted">加载中...</p>
+                    )}
+                  </div>
+                </div>
+              </ElectricBorder>
+            </div>
+
+            <ElectricBorder
+              color="#7df9ff"
+              speed={1}
+              chaos={0.5}
+              thickness={2}
+              style={{ borderRadius: 20 }}
+            >
+              <div className="leaderboard-card">
+                <h2 className="leaderboard-card__title">个人列表</h2>
+                <ul className="leaderboard-list">
+                  {scores.map((user, index) => (
+                    <li key={user.uid} className="leaderboard-list__item">
+                      <Link
+                        to={`/view?uid=${user.uid}`}
+                        className="leaderboard-list__link"
+                      >
+                        <span className="leaderboard-list__rank">
+                          {index + 1}
+                        </span>
+                        <span className="leaderboard-list__name">
+                          {user.name}
+                        </span>
+                        <span className="leaderboard-list__score">
+                          {user.total_score} 分
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </ElectricBorder>
+          </div>
         </div>
       </div>
     </div>
