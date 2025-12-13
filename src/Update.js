@@ -29,6 +29,7 @@ const Update = ({ uid }) => {
         const foundDate = data.find((item) => item.id === 1);
         if (foundDate) {
           setAllowedDate(foundDate.date);
+          setSelectedDate(new Date(foundDate.date));
           console.log("Allowed date from API:", foundDate.date);
         }
       })
@@ -51,15 +52,17 @@ const Update = ({ uid }) => {
   }, []);
 
   useEffect(() => {
+    if (!uid) return;
     fetch(`https://api.kero.zone/dogking/getuUserScoreGroupByDate?uid=${uid}`)
       .then((response) => response.json())
       .then((data) => {
         setData(data);
-        const todayKey = formatDate(new Date());
-        setSelectedKeys(data[todayKey] ? data[todayKey].split(",") : []);
+        const baseDate = allowedDate ? new Date(allowedDate) : new Date();
+        const dateKey = formatDate(baseDate);
+        setSelectedKeys(data[dateKey] ? data[dateKey].split(",") : []);
       })
       .catch((error) => console.error("Error fetching data:", error));
-  }, []);
+  }, [uid, allowedDate]);
 
   useEffect(() => {
     const filtered = allItems.filter((item) => {
@@ -142,7 +145,7 @@ const Update = ({ uid }) => {
     })
       .then((response) => response.json())
       .then((updatedData) => {
-        console.log("Success:", updatedData);
+        alert("提交成功！");
         setData(updatedData);
         setSelectedKeys(
           updatedData[formatDate(selectedDate)]
@@ -152,6 +155,7 @@ const Update = ({ uid }) => {
       })
       .catch((error) => {
         console.error("Error:", error);
+        alert("提交失败，请稍后重试或联系管理员。");
       });
   };
 

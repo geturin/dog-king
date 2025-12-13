@@ -120,7 +120,7 @@ const Update = () => {
     })
       .then((response) => response.json())
       .then((updatedData) => {
-        console.log("Success:", updatedData);
+        alert("提交成功！");
         setData(updatedData); // 使用返回的更新后的数据更新本地状态
         setSelectedKeys(
           updatedData[selectedKey] ? updatedData[selectedKey].split(",") : []
@@ -128,6 +128,7 @@ const Update = () => {
       })
       .catch((error) => {
         console.error("Error:", error);
+        alert("提交失败，请稍后重试或联系管理员。");
       });
   };
 
